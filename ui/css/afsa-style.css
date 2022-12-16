@@ -111,5 +111,7 @@ strong {
 .page-header {
     background-color: #EDF5FB;
     width: 100%;
-    padding: 5em;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
