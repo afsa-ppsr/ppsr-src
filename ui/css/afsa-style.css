@@ -49,7 +49,7 @@
      padding: 0; 
      list-style-type: none; 
 } 
-.breadcrumb ol li::before:not(:first-of-type){ 
+.breadcrumb ol li:not(:first-of-type)::before{ 
     content: ">"; 
 
 }
@@ -63,5 +63,12 @@
 
 .lp-section-text {
     border: 1px solid var(--afsa-grey-tertiary);
-    line-height: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1em;
+}
+
+.node-content {
+    color: var(--afsa-black-tertiary);
+    line-height: 1.5rem;
 }
