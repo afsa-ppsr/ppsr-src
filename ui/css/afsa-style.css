@@ -77,9 +77,16 @@ strong {
     font-weight: bold !important;
 }
 
+.action-items {
+    display: flex;
+    justify-content: space-between;
+}
+
 .action-item {
     padding: 16px 16px 16px 75px;
     background: #ffffff;
+    margin-bottom: 1em;
+    width: 45%;
     border-bottom: 8px solid rgba(0,170,184,0.3);
     display: block;
     text-decoration: none;
@@ -89,6 +96,7 @@ strong {
     border-left: 1px solid #d8e1e9;
     border-right: 1px solid #d8e1e9;
     border-radius: 4px 4px 0 0;
+    
 }
 
 .action-item:hover {
