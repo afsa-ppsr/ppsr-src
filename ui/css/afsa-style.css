@@ -1,3 +1,32 @@
+:root {
+    /*colours*/
+  
+    /**primary colours**/
+    --afsa-dark-blue-primary: #002a4e;
+    --afsa-aqua-primary: #00aab8;
+    --afsa-purple-primary: #9865a;
+  
+    /**secondary colours**/
+    --afsa-marine-secondary: #00496c;
+    --afsa-teal-secondary: #2d7c97;
+    --afsa-aqua-secondary: #5dc6cb;
+    --afsa-blue-secondary: #3b85b6;
+    --afsa-violet-secondary: #6673ac;
+
+    /**tertiary colours**/
+    --afsa-grey-tertiary: #d8e1e9;
+    --afsa-black-tertiary: #333333; 
+    --afsa-white-tertiary: #ffffff;
+  
+    /*typography*/
+    --typeface-title-primary: Ubutu Bold;
+    --typeface-subhead-primary: Ubutu Medium;
+    --typeface-body-primary: Ubutu Light;
+    --typeface-title-secondary: Arial Bold;
+    --typeface-subhead-secondary: Arial Regular;
+    --typeface-body-secondary: Arial Regular;
+  }
+
 /*breadcrumb*/ 
 
 .breadcrumb
@@ -20,8 +49,19 @@
      padding: 0; 
      list-style-type: none; 
 } 
-.breadcrumb ol li::before { 
+.breadcrumb ol li::before:not(:first-of-type){ 
     content: ">"; 
+
+}
+
+.breadcrumb ol li::before {
     font-size: 8px; 
     margin-right: 5px; margin-left: 5px; 
+}
+
+/*landing page section text*/
+
+.lp-section-text {
+    border: 1px solid var(--afsa-grey-tertiary);
+    line-height: 1rem;
 }
