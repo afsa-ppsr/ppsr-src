@@ -72,3 +72,28 @@
     color: var(--afsa-black-tertiary);
     line-height: 1.5rem;
 }
+
+strong {
+    font-weight: bold !important;
+}
+
+.action-item {
+    padding: 16px 16px 16px 75px;
+    background: #ffffff;
+    border-bottom: 8px solid rgba(0,170,184,0.3);
+    display: block;
+    text-decoration: none;
+    position: relative;
+    min-height: 90px;
+    border-top: 1px solid #d8e1e9;
+    border-left: 1px solid #d8e1e9;
+    border-right: 1px solid #d8e1e9;
+    border-radius: 4px 4px 0 0;
+}
+
+.action-item:hover {
+    text-decoration: underline;
+    border-bottom: 8px solid #00AAB8;
+    -webkit-box-shadow: 0 4px 8px 0 rgb(123 123 123 / 35%);
+    box-shadow: 0 4px 8px 0 rgb(123 123 123 / 35%);
+}
