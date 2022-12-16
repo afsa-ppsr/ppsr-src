@@ -107,3 +107,9 @@ strong {
     -webkit-box-shadow: 0 4px 8px 0 rgb(123 123 123 / 35%);
     box-shadow: 0 4px 8px 0 rgb(123 123 123 / 35%);
 }
+
+.page-header {
+    background-color: #EDF5FB;
+    width: 100%;
+    padding-bottom: 16px;
+}
