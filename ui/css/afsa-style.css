@@ -77,9 +77,11 @@ strong {
     font-weight: bold !important;
 }
 
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+
 .action-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .action-item {
