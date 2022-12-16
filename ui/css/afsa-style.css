@@ -1,0 +1,27 @@
+/*breadcrumb*/ 
+
+.breadcrumb
+{
+    padding-right: 350px; 
+}
+
+.breadcrumb { 
+    padding-bottom: 0.5em; 
+} 
+
+.breadcrumb ol li { 
+     color: #00496c; 
+     font-size: 12px; 
+     font-weight: 500; 
+} 
+.breadcrumb li { 
+    display: inline;
+     margin: 0; 
+     padding: 0; 
+     list-style-type: none; 
+} 
+.breadcrumb ol li::before { 
+    content: ">"; 
+    font-size: 8px; 
+    margin-right: 5px; margin-left: 5px; 
+}
