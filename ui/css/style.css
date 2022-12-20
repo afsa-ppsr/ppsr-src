@@ -56,47 +56,48 @@ body{
   margin:0;
   font-size:1rem;
   font-family:Ubuntu,sans-serif;
+	color:#333;
 }
 
 /* typography */
 
-h1,h2,h3,h4,h5,h6{
-  color:#002a4e;
+h1,h2,h3,h4,h5,h6,strong{
+  color:#016272;
   font-weight: 500;
+	margin-bottom:1rem;
+	margin-top:3rem;
 }
 
 h1{
-    font-size: 1.75rem;
+    font-size: 2.625rem;
     line-height: 2rem;
-    margin-bottom:.75rem;
+		margin-bottom:2rem;
+		margin-top:1rem;
+
 }
 
 h2{
-    color: #002a4e;
     font-size: 1.5rem;
     line-height: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
-    line-height: 26px;
+    font-size: 1.35rem;
+
 }
 
 h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
     border: none;
-    margin: 0;
-    padding: 0;
-    color: #002a4e;
 }
 
-h4,h5,h6{
+h4,h5,h6,strong{
     font-weight: 500;
     font-size:1rem;
 }
 
-p{
+p,ul,ol{
   margin-bottom:1.5rem;
+	line-height: 1.25rem;
 }
 
 p.large{
@@ -112,9 +113,129 @@ a:hover{
   text-decoration:underline;
 }
 
+#mainContainer a{
+	text-decoration: underline;
+}
 
+#mainContainer a:hover{
+	color:#016272;
+}
 
+#main{
+	padding-top:1rem;
+}
 
+.promo-group {
+  display: flex; /* equal height of the children */
+}
+
+.promo-card{
+		flex: 1; /* additionally, equal width */
+		background: #ffffff;
+    border-bottom: 8px solid rgba(0,170,184,0.3);
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    min-height: 3rem;
+    border-top: 1px solid #d8e1e9;
+    border-left: 1px solid #d8e1e9;
+    border-right: 1px solid #d8e1e9;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+		min-width:auto;
+		margin-right:1%;
+
+}
+
+.promo-content{
+	padding:1rem;
+}
+
+.promo-content img{
+	display:block;
+	margin:auto;
+	width:auto;
+	max-height:80px;
+	padding:0.5rem 0;
+}
+
+.promo-card h2, .promo-card h3{
+	font-size:1.2rem;
+	line-height:1.4rem;
+	margin:0;
+	padding:0;
+}
+
+.promo-card p, .promo-card ul{
+	font-size:.9rem;
+	margin-top:1rem;
+	line-height:1.2rem;
+}
+
+.promo-card:last-child{
+	margin-right:0;
+}
+
+ul li{
+	list-style-type: circle;
+	padding-left:0.5rem;
+	list-style-position: inside;
+	line-height:1.2rem;
+}
+
+a.button{
+		border-radius: 6px;
+    font-weight: 500;
+    border: none;
+    padding: .8rem;
+		font-size:.8rem;
+    text-decoration: none !important;
+    background: #2d7c97;
+    color: #ffffff;
+    display: inline-block;
+}
+
+a.button:hover{
+	text-decoration:underline !important;
+	color:#fff !important;
+}
+
+/* breadcrumbs */
+
+#breadcrumbs{
+	margin-bottom:4rem;
+	margin-top:.5rem;
+}
+
+#breadcrumbs a{
+	text-decoration: underline;
+}
+
+#breadcrumbs dl dt, #breadcrumbs dl dd {
+    color: #00496c;
+    font-size: .75rem;
+    font-weight: 500;
+		display:none;
+}
+
+#breadcrumbs dl dd {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#breadcrumbs dd.first::before{
+	content:none;
+	margin:0;
+}
+
+#breadcrumbs dl dd::before {
+    content: " > ";
+    font-size: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 
 /* main containers */
@@ -160,6 +281,8 @@ a:hover{
   background:#002a4e;
   max-width:100%;
   position: relative;
+	border-bottom:8px solid #35788B;
+
 }
 
 .menuNav a{
@@ -170,6 +293,9 @@ a:hover{
   border-right: 2px solid #00496c;
 }
 
+.menuNav, .menuNav ul{
+	margin-bottom:0;
+}
 
 
 .menuNav li:last-child a{
@@ -198,7 +324,7 @@ a:hover{
 }
 
 #foot{
-  margin-top:4rem;
+  margin-top:6rem;
   color:#fff;
 }
 
@@ -212,6 +338,8 @@ a:hover{
   display:block;
   float:left;
   width:16.6%;
+	padding:0;
+	margin:0 0 1rem 0;
 }
 
 #foot a{
@@ -262,6 +390,11 @@ a:hover{
   body{
   }
 
+	h1{
+		font-size:1.75rem;
+		line-height:1.5rem;
+	}
+
   .headerNav, #menu, #mainContainer, .footer, .footer-logo-content{
     max-width:100%;
   }
@@ -290,6 +423,15 @@ a:hover{
     height:30px;
   }
 
+	.promo-group {
+		display: block;
+	}
+
+	.promo-card{
+		min-width: 100%;
+		margin:0 0 2rem 0;
+	}
+
   #menu{
     display:none;
   }
@@ -307,7 +449,7 @@ a:hover{
     width:100%;
     float:none;
     line-height:1.1rem;
-    margin-bottom:0rem;
+    margin-bottom:0.5rem;
   }
 
   .footer-afsa, .footer-copyright{
