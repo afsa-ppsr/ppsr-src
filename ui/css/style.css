@@ -407,7 +407,16 @@ a.button:hover{
 .column {
   border: 1px solid var(--afsa-aqua-primary);
   border-radius: 1rem;
-  padding: 0.5em;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.column.img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.column.p {
   color: var(--afsa-aqua-primary);
 }
 
