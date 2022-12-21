@@ -83,6 +83,7 @@ strong {
     display: flex;
     justify-content: space-evenly;
     column-gap: 1em;
+    margin-top: 1em;
 }
 
 .action-item {
@@ -107,6 +108,10 @@ strong {
     border-bottom: 8px solid #00AAB8;
     -webkit-box-shadow: 0 4px 8px 0 rgb(123 123 123 / 35%);
     box-shadow: 0 4px 8px 0 rgb(123 123 123 / 35%);
+}
+
+.action-item.img {
+    width: 7rem;
 }
 
 .page-header {
