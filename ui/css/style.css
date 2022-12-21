@@ -420,7 +420,7 @@ a.button:hover{
   border: 3px solid var(--afsa-aqua-primary);
 }
 
-.column.img, .step.image {
+.column.img, .step.img {
   width: 8rem;
   height: 8rem;
 }
