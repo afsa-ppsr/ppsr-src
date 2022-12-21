@@ -78,13 +78,14 @@ h1{
 
 h2{
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 1.7rem;
     font-size: 1.35rem;
 
 }
 
 h3{
     font-size: 1.2rem;
+		line-height:1.4rem;
     font-weight: 500;
     line-height: 1.25rem;
     border: none;
@@ -125,7 +126,7 @@ a:hover{
 	padding-top:1rem;
 }
 
-.promo-group {
+.promo-group, .info-group{
   display: flex; /* equal height of the children */
 }
 
@@ -144,19 +145,29 @@ a:hover{
     margin: 0;
 		min-width:auto;
 		margin-right:1%;
-
 }
 
-.promo-content{
+.info-card{
+		flex: 1; /* additionally, equal width */
+		border-top: 2px solid #d8e1e9;
+		margin-right:1%;
+		margin-top:1.2rem;
+}
+
+.promo-content, .info-content{
 	padding:1rem;
 }
 
-.promo-content img{
+.promo-content img, .info-content img{
 	display:block;
 	margin:auto;
 	width:auto;
 	max-height:80px;
 	padding:0.5rem 0;
+}
+
+.info-card h2, .info-card h3{
+	margin-top:1rem;
 }
 
 .promo-card h2, .promo-card h3{
@@ -176,11 +187,17 @@ a:hover{
 	margin-right:0;
 }
 
+.info-card:last-child{
+	margin-right:0;
+}
+
+
 ul li{
 	list-style-type: circle;
 	padding-left:0.5rem;
-	list-style-position: inside;
+	list-style-position: outside;
 	line-height:1.2rem;
+	padding-bottom:0.2rem;
 }
 
 a.button{
@@ -423,11 +440,11 @@ a.button:hover{
     height:30px;
   }
 
-	.promo-group {
+	.promo-group, .info-group {
 		display: block;
 	}
 
-	.promo-card{
+	.promo-card, .info-card{
 		min-width: 100%;
 		margin:0 0 2rem 0;
 	}
