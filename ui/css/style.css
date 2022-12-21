@@ -416,6 +416,10 @@ a.button:hover{
   padding: 0.5rem;
 }
 
+.column:hover {
+  border: 3px solid var(--afsa-aqua-primary);
+}
+
 .column.img {
   width: 8rem;
   height: 8rem;
