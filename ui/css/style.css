@@ -351,7 +351,6 @@ a.button:hover{
 
 #mainContainer{
   min-height:25rem;
-  display: flex;
 }
 
 #main{
@@ -414,38 +413,8 @@ a.button:hover{
   width:80%;
 }
 
-/*home page*/
-.row, .steps {
-  display: flex;
-  justify-content: center;
-  column-gap: 1em;
-  margin-bottom: 1em;
-}
-
-.column, .step {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid var(--afsa-aqua-primary);
-  border-radius: 1rem;
-  padding: 0.5rem;
-}
-
-.column:hover, .step:hover {
-  border: 3px solid var(--afsa-aqua-primary);
-}
-
-.column.img, .step.img {
-  width: 8rem;
-  height: 8rem;
-}
-
-.column.p, .step.p {
-  color: var(--afsa-aqua-primary);
-}
-
 ul li {
-  padding-left: 1.25em;
+  margin-left: 1.25em;
 }
 
 
