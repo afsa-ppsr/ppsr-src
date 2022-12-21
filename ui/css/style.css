@@ -400,14 +400,14 @@ a.button:hover{
 }
 
 /*home page*/
-.row {
+.row, .steps {
   display: flex;
   justify-content: center;
   column-gap: 1em;
   margin-bottom: 1em;
 }
 
-.column {
+.column, .step {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -416,16 +416,16 @@ a.button:hover{
   padding: 0.5rem;
 }
 
-.column:hover {
+.column:hover, .step:hover {
   border: 3px solid var(--afsa-aqua-primary);
 }
 
-.column.img {
+.column.img, .step.image {
   width: 8rem;
   height: 8rem;
 }
 
-.column.p {
+.column.p, .step.p {
   color: var(--afsa-aqua-primary);
 }
 
