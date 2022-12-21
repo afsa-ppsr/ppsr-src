@@ -398,6 +398,19 @@ a.button:hover{
   width:80%;
 }
 
+/*home page*/
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  border: 1px solid var(--afsa-aqua-primary);
+  border-radius: 1rem;
+  padding: 0.5em;
+  color: var(--afsa-aqua-primary);
+}
+
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
@@ -406,8 +419,6 @@ a.button:hover{
 
 /* mobile */
 @media (max-width:768px){
-  body{
-  }
 
 	h1{
 		font-size:1.75rem;
@@ -510,17 +521,6 @@ a.button:hover{
     height:400px;
     background:#fff;
     display:none;
-  }
-
-  .row {
-    display: flex;
-    justify-content: center;
-  }
-
-  .column {
-    border: 1px solid var(--afsa-aqua-primary);
-    border-radius: 1rem;
-    padding: 0.5em;
   }
 
 }
