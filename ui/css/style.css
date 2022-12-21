@@ -429,6 +429,10 @@ a.button:hover{
   color: var(--afsa-aqua-primary);
 }
 
+ul li {
+  padding-left: 1.25em;
+}
+
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
