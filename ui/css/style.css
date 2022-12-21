@@ -336,6 +336,7 @@ a.button:hover{
 
 #mainContainer{
   min-height:25rem;
+  display: flex;
 }
 
 #main{
@@ -402,13 +403,17 @@ a.button:hover{
 .row {
   display: flex;
   justify-content: center;
+  column-gap: 1em;
+  margin-bottom: 1em;
 }
 
 .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid var(--afsa-aqua-primary);
   border-radius: 1rem;
   padding: 0.5rem;
-  align-items: center;
 }
 
 .column.img {
