@@ -133,7 +133,7 @@ strong {
 }
 .submenu-list {
     padding-top: 1.5em;
-    list-style-type: none;
+    list-style-type: none !important;
 }
 .submenu-item {
     background: #E5F6F7;
