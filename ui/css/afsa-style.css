@@ -135,7 +135,6 @@ strong {
     padding-top: 1.5em;
 }
 .submenu-item {
-    color: #333333;
     background: #E5F6F7;
     border-left: 8px solid #00AAB8;
     border-bottom: 1px solid #d8e1e9;
@@ -151,11 +150,15 @@ strong {
     width: 18px;
     height: 18px;
     display: inline-block;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .circle-with-arrow:after {
     content: ">";
-    text-align: center !important;
-    vertical-align: middle !important;
+}
+
+.submenu-link {
+    color: #333333;
 }
 }
