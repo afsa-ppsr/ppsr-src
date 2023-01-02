@@ -120,3 +120,15 @@ strong {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+
+.submenu {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 8px 12px 0 rgb(123 123 123 / 25%);
+    border-bottom: 8px solid #00AAB8;
+}
+
+.submenu-item {
+    background: #E5F6F7;
+    border-left: 8px solid #00AAB8;
+}
