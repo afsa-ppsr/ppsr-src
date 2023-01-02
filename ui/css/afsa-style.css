@@ -138,10 +138,14 @@ strong {
     background: #E5F6F7;
     border-left: 8px solid #00AAB8;
     border-bottom: 1px solid #d8e1e9;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 1em;
 }
 
 .submenu-item:first-of-type {
     border-top: 1px solid #d8e1e9;
+    
 }
 
 .circle-with-arrow {
@@ -159,6 +163,6 @@ strong {
 }
 
 .submenu-link {
-    color: #333333;
+    color: #333333 !important;
 }
 }
