@@ -133,7 +133,6 @@ strong {
 }
 .submenu-list {
     padding-top: 1.5em;
-    list-style-type: none !important;
 }
 .submenu-item {
     background: #E5F6F7;
@@ -141,6 +140,7 @@ strong {
     border-bottom: 1px solid #d8e1e9;
     padding: 1em;
     width: 25%;
+    list-style-type: none !important;
 }
 
 .submenu-item:first-of-type {
