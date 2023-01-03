@@ -129,6 +129,19 @@ a:hover{
 	padding-top:1rem;
 }
 
+blockquote{
+	font-size:1.3rem;
+	line-height:1.6rem;
+	padding-left:1rem;
+	margin-left:1rem;
+	border-left:6px solid #7fd3da;
+	color:#026580;
+	padding-top:.5rem;
+	padding-bottom:1rem;
+	margin-top:2.5rem;
+	margin-bottom:4rem;
+	display: block;
+}
 
 /* promo and info groups/card */
 
@@ -194,7 +207,7 @@ a:hover{
 		border-top-left-radius: 1rem;
 		border-top-right-radius: 1rem;
 
-		box-shadow: 0 8px 0 0 teal;
+		box-shadow: 0 8px 0 0 #7fd3da;
 
 		margin-right:1% !important;
 		margin-top:1.2rem  !important;
