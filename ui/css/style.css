@@ -426,9 +426,9 @@ label {
 }
 
 .mandatory:after {
- mask-image: url("../images/mandatory.png");
+ mask-image: url(../images/mandatory.png);
 mask-size: 90%;
- -webkit-mask-image: url("../images/mandatory.png");
+ -webkit-mask-image: url(../images/mandatory.png);
 -webkit-mask-size: 90%;
 }
 
