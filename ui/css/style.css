@@ -426,8 +426,8 @@ label {
 }
 
 .mandatory:after {
- mask-image: url("../ui/images/mandatory.png");
- -webkit-mask-image: url("../ui/images/mandatory.png");
+ mask-image: url("../images/mandatory.png");
+ -webkit-mask-image: url("../images/mandatory.png");
 }
 
 
