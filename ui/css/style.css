@@ -469,7 +469,7 @@ input[type="submit"] {
 }
 
 label {
- margin-bottom: 1em;	
+ margin-bottom: 1em;
 }
 
 .mandatory {
@@ -488,6 +488,8 @@ label {
 
 /* mobile */
 @media (max-width:768px){
+
+	#main{margin:1rem;}
 
 	h1{
 		font-size:1.75rem;
