@@ -456,6 +456,30 @@ ul li {
   margin-left: 1.25em;
 }
 
+input[type="text"] {
+ margin-bottom: 1em;
+}
+
+input[type="submit"] {
+ margin-top: 1em;
+ background-color: #2d7c97;
+ padding: 1em;
+ border-radius: 0.5em;
+ border: 1px solid #2d7c97;
+}
+
+label {
+ margin-bottom: 1em;	
+}
+
+.mandatory {
+ background-image: url("../images/mandatory.png");
+ background-repeat: no-repeat;
+ background-position-x: right;
+ background-origin: padding-box;
+ padding-right: 1em;
+}
+
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
