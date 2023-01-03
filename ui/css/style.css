@@ -432,6 +432,12 @@ mask-size: 90%;
 -webkit-mask-size: 90%;
 }
 
+.mandatory {
+ background-image: url("../images/mandatory.png");
+ background-repeat: no-repeat;
+ background-position-x: right;
+}
+
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
