@@ -5,11 +5,10 @@ function showSubMenu(){
   
   if (submenu.style.display = "none"){
     submenu.style.display = "inline-block";
-  };
-  
-  if (submenu.style.display = "inline-block"){
+  } else {
     submenu.style.display = "none";
-  }
+  };
+ 
 };
 
 
