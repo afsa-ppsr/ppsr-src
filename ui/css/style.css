@@ -64,7 +64,7 @@ body{
 /* typography */
 
 h1,h2,h3,h4,h5,h6,strong{
-  color:#016272;
+  color:#026580;
   font-weight: 500;
 	margin-bottom:1rem;
 	margin-top:3rem;
@@ -108,11 +108,12 @@ p.large{
 }
 
 a{
-  color:#00496c;
+  color:#004a6b;
   text-decoration:none;
 }
 
 a:hover{
+	color:#009aa8;
   text-decoration:underline;
 }
 
@@ -132,7 +133,7 @@ a:hover{
 /* promo and info groups/card */
 
 .group-background{
-	background:#EAF7F7;
+	background:#ebf7f8;
 }
 
 .group-background .promo-card, .group-background .info-card{
@@ -145,32 +146,69 @@ a:hover{
 
 .promo-group, .info-group{
   display: flex; /* equal height of the children */
+	margin-bottom: 1rem;
 }
 
 .promo-card{
 		flex: 1; /* additionally, equal width */
 		background: #ffffff;
-    border-bottom: 8px solid rgba(0,170,184,0.3);
     display: inline-block;
     text-decoration: none;
     position: relative;
     min-height: 3rem;
-    border-top: 1px solid #d8e1e9;
-    border-left: 1px solid #d8e1e9;
-    border-right: 1px solid #d8e1e9;
-    border-radius: 4px 4px 0 0;
+    border-radius: 1rem;
+		border:1px solid #009aa8;
     margin: 0;
 		min-width:auto;
 		margin-right:1%;
+		text-decoration: none !important;
+		text-align: center;
+		/*box-shadow:2px 2px 8px rgba(0,0,0,0.2);*/
+}
+
+.promo-card:hover{
+	background:#EBF7F8;
+}
+
+.promo-card p, .promo-card ul, .promo-card ol{
+	text-align: left;
+}
+
+.promo-card h2, .promo-card h3{
+	color:#009aa8;
+	text-align: center;
+}
+
+.promo-card .button{
+	display:inline-block;
+	margin:.5rem;
 }
 
 .info-card{
 		flex: 1; /* additionally, equal width */
+
 		border-top: 2px solid #d8e1e9;
-		margin-right:1%;
-		margin-top:1.2rem;
-		min-width:auto;
+		border-left: 2px solid #d8e1e9;
+		border-right: 2px solid #d8e1e9;
+
+		border-top-left-radius: 1rem;
+		border-top-right-radius: 1rem;
+
+		box-shadow: 0 8px 0 0 teal;
+
+		margin-right:1% !important;
+		margin-top:1.2rem  !important;
+		margin-bottom:1.4rem  !important;
+		min-width:auto  !important;
 }
+
+.info-content{
+
+}
+/*
+border-radius:2rem;
+border: 2px solid #d8e1e9;
+*/
 
 .promo-content, .info-content{
 	padding:1rem;
@@ -217,21 +255,15 @@ ul li{
 	padding-bottom:0.2rem;
 }
 
-a.button{
-		border-radius: 6px;
-    font-weight: 500;
-    border: none;
-    padding: .8rem;
-		font-size:.8rem;
-    text-decoration: none !important;
-    background: #2d7c97;
-    color: #ffffff;
-    display: inline-block;
+.button{
+	border:2px solid #04A9B8;
+	border-radius:2rem;
+	text-decoration:none !important;
+	padding:1rem 2rem;
 }
 
-a.button:hover{
+.button:hover, a:hover .button{
 	text-decoration:underline !important;
-	color:#fff !important;
 }
 
 /* breadcrumbs */
@@ -273,7 +305,7 @@ a.button:hover{
 
 
 /* main containers */
-.headerNav, #menu, #mainContainer, .footer, .footer-logo-content{
+.headerNav, #menu, #main, .footer, .footer-logo-content{
   margin:auto;
   max-width:1280px;
   display:block;
@@ -302,17 +334,17 @@ a.button:hover{
   position: absolute;
   right:1rem;
   top:1.75rem;
-  border-radius: 1.25rem;
   line-height:1rem;
-  border:1px solid #04A9B8;
+	display:block;
 }
 
-.headerNav .sign-in a{
-  padding:1rem 2rem;
+.sign-in .button{
+	padding:1rem 2rem;
 }
+
 
 .menuNav{
-  background:#002a4e;
+  background:#004a6b;
   max-width:100%;
   position: relative;
 	border-bottom:8px solid #35788B;
@@ -322,15 +354,19 @@ a.button:hover{
 .menuNav a{
   color:#fff;
   text-decoration:none;
-  padding:.8rem 1rem;
+  padding:.8rem .5rem;
   display:block;
-  border-right: 2px solid #00496c;
+  /*border-right: 2px solid #00496c;*/
 }
 
 .menuNav, .menuNav ul{
 	margin-bottom:0;
 }
 
+.menuNav li:first-child{
+	padding-left:0;
+	margin-left:0;
+}
 
 .menuNav li:last-child a{
   border:none;
@@ -351,10 +387,13 @@ a.button:hover{
 
 #mainContainer{
   min-height:25rem;
+	background:#fff;
+	margin:0;
+	width:100%;
 }
 
 #main{
-  margin:1rem;
+  margin:auto;
 }
 
 #foot{
