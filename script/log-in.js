@@ -3,6 +3,6 @@ function login(){
  var password = document.getElementById("password");
   
  if (username.value == "TestAccount"){
-   document.location.href = "https://afsa-ppsr.github.io/ppsr/home.html";
+   document.location.href = "https://afsa-ppsr.github.io/ppsr/home.html", true;
  };
 }
