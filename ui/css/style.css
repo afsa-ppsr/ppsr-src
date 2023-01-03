@@ -421,21 +421,21 @@ input[type="text"] {
  margin-bottom: 1em;
 }
 
-label {
- margin-bottom: 1em;	
+input[type="submit"] {
+ margin-top: 1em;
+ background-color: #2d7c97;
 }
 
-.mandatory:after {
- mask-image: url(../images/mandatory.png);
-mask-size: 90%;
- -webkit-mask-image: url(../images/mandatory.png);
--webkit-mask-size: 90%;
+label {
+ margin-bottom: 1em;	
 }
 
 .mandatory {
  background-image: url("../images/mandatory.png");
  background-repeat: no-repeat;
  background-position-x: right;
+ background-origin: padding-box;
+ padding-right: 1em;
 }
 
 
