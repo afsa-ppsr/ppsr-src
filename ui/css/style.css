@@ -473,7 +473,8 @@ input[type="text"] {
  margin-bottom: 1em;
 }
 
-input[type="submit"] {
+.login {
+ color: white;
  margin-top: 1em;
  background-color: #2d7c97;
  padding: 1em;
