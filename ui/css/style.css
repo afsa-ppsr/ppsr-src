@@ -469,12 +469,15 @@ ul li {
   margin-left: 1.25em;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"], input[type="checkbox"] {
  margin-bottom: 1em;
 }
 
 .login {
  color: white;
+ font-weight: bold;
+ font-size: medium;
+ width: 10%;
  margin-top: 1em;
  background-color: #2d7c97;
  padding: 1em;
