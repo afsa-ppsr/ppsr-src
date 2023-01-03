@@ -426,8 +426,8 @@ label {
 }
 
 .mandatory:after {
- mask-image: url("https://github.com/afsa-ppsr/ppsr-src/blob/main/ui/images/mandatory.png");
- -webkit-mask-image: url("https://github.com/afsa-ppsr/ppsr-src/blob/main/ui/images/mandatory.png");
+ mask-image: url("../ppsr-src/ui/images/mandatory.png");
+ -webkit-mask-image: url("../ppsr-src/ui/images/mandatory.png");
 }
 
 
