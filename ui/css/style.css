@@ -131,7 +131,7 @@ a:hover{
 
 blockquote{
 	font-size:1.3rem;
-	line-height:1.7rem;
+	line-height:1.6rem;
 	padding-left:1rem;
 	margin-left:1rem;
 	border-left:6px solid #7fd3da;
@@ -141,6 +141,10 @@ blockquote{
 	margin-top:2.5rem;
 	margin-bottom:4rem;
 	display: block;
+}
+
+blockquote p{
+	line-height:1.6rem;
 }
 
 /* promo and info groups/card */
