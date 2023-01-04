@@ -505,6 +505,15 @@ label {
  padding-right: 1em;
 }
 
+td {
+  padding: 1em;
+  border: 1px solid var(--afsa-grey-tertiary);
+}
+
+thead {
+  background-color: var(--afsa-white-tertiary);
+}
+
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
