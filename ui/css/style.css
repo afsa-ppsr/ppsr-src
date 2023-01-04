@@ -469,7 +469,7 @@ ul li {
   margin-left: 1.25em;
 }
 
-input[type="text"], input[type="password"], input[type="checkbox"] {
+input[type="text"], input[type="password"], input[type="checkbox"], #forgot-password {
  margin-bottom: 1em;
 }
 
