@@ -490,6 +490,10 @@ input[type="text"], input[type="password"], input[type="checkbox"] {
  margin-bottom: 1em;
 }
 
+input[type="checkbox"] {
+ margin-top: 1em;
+}
+
 .login {
  color: white;
  font-weight: bold;
@@ -512,6 +516,20 @@ label {
  background-position-x: right;
  background-origin: padding-box;
  padding-right: 1em;
+}
+
+td {
+  padding: 1em;
+  border: 1px solid var(--afsa-grey-tertiary);
+}
+
+thead {
+  background-color: var(--afsa-white-tertiary);
+}
+
+thead td h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 
