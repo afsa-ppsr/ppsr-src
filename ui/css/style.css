@@ -95,7 +95,6 @@ h3{
 
 h4,h5,h6,strong{
     font-weight: 500;
-    font-size:1rem;
 }
 
 p,ul,ol{
@@ -103,7 +102,7 @@ p,ul,ol{
 	line-height: 1.25rem;
 }
 
-p.large{
+p.large, h4,h5,h6{
   font-size:1.125rem;
 }
 
@@ -146,6 +145,13 @@ blockquote{
 blockquote p{
 	line-height:1.6rem;
 }
+
+/* max width on content elements to ensure readability on desktop */
+
+p, blockquote, ul, ol{
+	max-width:85%;
+}
+
 
 /* promo and info groups/card */
 
@@ -411,6 +417,13 @@ ul li{
 
 #main{
   margin:auto;
+}
+
+
+/* reset max width on mobile */
+
+p, blockquote, ul, ol{
+	max-width:auto;
 }
 
 #foot{
