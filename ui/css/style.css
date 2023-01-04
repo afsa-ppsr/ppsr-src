@@ -473,8 +473,12 @@ ul li {
   margin-left: 1.25em;
 }
 
-input[type="text"], input[type="password"], input[type="checkbox"], #forgot-password {
+input[type="text"], input[type="password"], input[type="checkbox"] {
  margin-bottom: 1em;
+}
+
+input[type="checkbox"] {
+ margin-top: 1em;
 }
 
 .login {
