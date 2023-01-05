@@ -535,6 +535,9 @@ thead td h4 {
 .ppsr-form {
   background-color: var(--afsa-grey-tertiary);
   width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
 }
 
 
