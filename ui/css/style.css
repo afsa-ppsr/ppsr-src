@@ -532,6 +532,11 @@ thead td h4 {
   margin-bottom: 1rem;
 }
 
+.ppsr-form {
+  background-color: var(--afsa-grey-tertiary);
+  width: 100%;
+}
+
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
