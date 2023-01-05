@@ -540,6 +540,7 @@ thead td h4 {
 button {
   border-radius: 0.2rem;
   border: 1px solid var(--afsa-teal-secondary);
+  margin-right: 1rem;
 }
 
 .secondary {
