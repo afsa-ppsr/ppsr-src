@@ -559,7 +559,11 @@ button {
   border-radius: 0.2rem;
 }
 .progress-indicator {
-  display: inline-block;
+  display: flex;
+}
+
+.progress-indicator-step p {
+  vertical-align: middle;
 }
 
 .progress-indicator-step {
@@ -567,6 +571,8 @@ button {
   color:#333;
   border-radius: 50%;
   margin: 1rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 
