@@ -562,8 +562,8 @@ button {
   display: flex;
 }
 
-.progress-indicator-step p {
-  vertical-align: middle;
+.progress-indicator-step-n {
+  margin-top: 1.5em;
 }
 
 .progress-indicator-step {
