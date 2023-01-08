@@ -570,6 +570,8 @@ button {
 
 .progress-indicator {
   display: flex;
+  justify-content: space-evenly;
+  width: 70%;
 }
 
 .progress-indicator-step-n {
