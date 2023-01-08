@@ -560,6 +560,11 @@ button {
   margin-top: 1rem;
   border-radius: 0.2rem;
 }
+
+.pi-bundle {
+  display: flex;
+}
+
 .progress-indicator {
   display: flex;
 }
