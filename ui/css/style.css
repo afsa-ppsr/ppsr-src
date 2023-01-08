@@ -578,14 +578,22 @@ button {
   margin-top: 1.5em;
 }
 
-.progress-indicator-step {
-  background-color: var(--afsa-grey-tertiary);
-  color:#333;
+.progress-indicator-step {  
   border-radius: 50%;
   margin: 1rem;
   width: 4rem;
   height: 4rem;
   text-align: center;
+}
+
+.normal {
+  background-color: var(--afsa-grey-tertiary);
+  color:#333;
+}
+
+.active {
+  background-color: var(--afsa-teal-secondary);
+  color: var(--afsa-white-tertiary);
 }
 
 
