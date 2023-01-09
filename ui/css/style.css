@@ -597,10 +597,6 @@ button {
   color: var(--afsa-white-tertiary);
 }
 
-review-section-button table {
-  border: none;
-}
-
 .cta {
   background-color: var(--afsa-purple-primary);
   color: var(--afsa-white-tertiary);
