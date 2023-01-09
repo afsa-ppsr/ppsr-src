@@ -603,6 +603,10 @@ button {
   border: 1px solid var(--afsa-purple-primary);
 }
 
+.review-section-button {
+  margin-bottom: 1em;
+}
+
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
   display:none;
