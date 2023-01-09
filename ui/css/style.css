@@ -626,6 +626,19 @@ hr {
   border: none;
 }
 
+.teal-part {
+  background-color: var(--afsa-teal-secondary);
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border: 1px solid var(--afsa-teal-secondary);
+}
+
+.white-part {
+  border: 1px solid var(--afsa-teal-secondary);
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
 /* mobile */
 @media (max-width:768px){
 
