@@ -632,6 +632,10 @@ hr {
   margin-bottom: 1em;
 }
 
+.info-panel-p {
+  padding: 1.5em;
+}
+
 .teal-part {
   background-color: var(--afsa-teal-secondary);
   border-top-left-radius: 5%;
