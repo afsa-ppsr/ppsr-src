@@ -598,12 +598,13 @@ button {
 }
 
 review-section-button table {
-  float: left;
+  border: none;
 }
 
 .cta {
   background-color: var(--afsa-purple-primary);
   color: var(--afsa-white-tertiary);
+  border: 1px solid var(--afsa-purple-primary);
 }
 
 /* mobile menu */
