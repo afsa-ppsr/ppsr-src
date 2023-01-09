@@ -601,10 +601,17 @@ button {
   background-color: var(--afsa-purple-primary);
   color: var(--afsa-white-tertiary);
   border: 1px solid var(--afsa-purple-primary);
+  float: right;
 }
 
 .review-section-button {
   margin-bottom: 1em;
+  width: 70%;
+}
+
+hr {
+  width: 70%;
+  display: block;
 }
 
 /* mobile menu */
