@@ -647,8 +647,6 @@ hr {
 
 .white-part {
   border: 1px solid var(--afsa-teal-secondary);
-  border-top-right-radius: 5%;
-  border-bottom-right-radius: 5%;
   width: 85%;
   display: inline-block;
 }
