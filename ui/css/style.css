@@ -626,21 +626,27 @@ hr {
   border: none;
 }
 
+.info-panel {
+  width: 70%;
+  position: relative;
+  display: block;
+}
+
 .teal-part {
   background-color: var(--afsa-teal-secondary);
   border-top-left-radius: 5%;
   border-bottom-left-radius: 5%;
   border: 1px solid var(--afsa-teal-secondary);
-  float: left;
   width: 15%;
+  display: inline-block;
 }
 
 .white-part {
   border: 1px solid var(--afsa-teal-secondary);
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
-  float: right;
   width: 85%;
+  display: inline-block;
 }
 
 /* mobile */
