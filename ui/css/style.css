@@ -597,6 +597,14 @@ button {
   color: var(--afsa-white-tertiary);
 }
 
+.tbody-review {
+  float: left;
+}
+
+.cta {
+  background-color: var(--afsa-purple-primary);
+  color: var(--afsa-white-tertiary);
+}
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
