@@ -651,6 +651,10 @@ hr {
   display: inline-block;
 }
 
+.confirmation-body {
+  width: 70%;
+}
+
 /* mobile */
 @media (max-width:768px){
 
