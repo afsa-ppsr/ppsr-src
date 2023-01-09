@@ -628,8 +628,8 @@ hr {
 
 .info-panel {
   width: 70%;
-  position: relative;
-  display: block;
+  display: flex;
+  margin-bottom: 1em;
 }
 
 .teal-part {
