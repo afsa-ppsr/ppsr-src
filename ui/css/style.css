@@ -622,6 +622,10 @@ hr {
   display:none;
 }
 
+.td-no-border {
+  border: none;
+}
+
 /* mobile */
 @media (max-width:768px){
 
