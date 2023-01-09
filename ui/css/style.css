@@ -605,6 +605,13 @@ button {
   margin-bottom: 0.5rem;
 }
 
+.use-account {
+  background-color: var(--afsa-purple-primary);
+  color: var(--afsa-white-tertiary);
+  border: 1px solid var(--afsa-purple-primary);
+  margin-bottom: 0.5rem;
+}
+
 .review-section-button {
   margin-bottom: 1em;
   width: 70%;
