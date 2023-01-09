@@ -612,6 +612,8 @@ button {
 hr {
   width: 70%;
   display: block;
+  margin-left: 0rem;
+  margin-top: 1em;
 }
 
 /* mobile menu */
