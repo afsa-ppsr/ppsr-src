@@ -612,6 +612,21 @@ button {
   margin-bottom: 0.5rem;
 }
 
+.accordion-heading {
+ display: block;	
+}
+
+.accordion-heading h2 {
+ display: inline-block;	
+}
+
+.accordion {
+ display: inline-block;
+ background-color: var(--afsa-teal-secondary);
+ border: 1px solid var(--afsa-teal-secondary);
+ border-radius: 50%;
+}
+
 .review-section-button {
   margin-bottom: 1em;
   width: 70%;
