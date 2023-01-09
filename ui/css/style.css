@@ -597,7 +597,7 @@ button {
   color: var(--afsa-white-tertiary);
 }
 
-.tbody-review {
+review-section-button table {
   float: left;
 }
 
