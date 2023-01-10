@@ -41,7 +41,10 @@ label {
     margin-top: 1rem;
     border-radius: 0.2rem;
   }
-  
+  .form-elements {
+    display: flex;
+    flex-direction: column;
+  }
   .ppsr-form h2 {
     margin-bottom: 1em;
   }
