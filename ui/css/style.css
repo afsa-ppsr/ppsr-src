@@ -673,7 +673,9 @@ hr {
   border-bottom-left-radius: 5%;
   border: 1px solid var(--afsa-teal-secondary);
   width: 15%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;	
 }
 
 .purple-part {
