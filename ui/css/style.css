@@ -522,55 +522,6 @@ thead td h4 {
   display:none;
 }
 
-.td-no-border {
-  border: none;
-}
-
-.info-panel {
-  width: 70%;
-  display: flex;
-  margin-bottom: 1em;
-}
-
-.info-panel-p {
-  padding: 1.5em;
-}
-
-.info-panel-icon {
-  width: 90%;	
-}
-
-.teal-part {
-  background-color: var(--afsa-teal-secondary);
-  border-top-left-radius: 5%;
-  border-bottom-left-radius: 5%;
-  border: 1px solid var(--afsa-teal-secondary);
-  width: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;	
-}
-
-.purple-part {
-  background-color: var(--afsa-violet-secondary);
-  border-top-left-radius: 5%;
-  border-bottom-left-radius: 5%;
-  border: 1px solid var(--afsa-violet-secondary);
-  width: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;	
-}
-
-.white-part {
-  border: 1px solid var(--afsa-teal-secondary);
-  width: 85%;
-  display: inline-block;
-}
-
-.confirmation-body {
-  width: 70%;
-}
 
 /* mobile */
 @media (max-width:768px){

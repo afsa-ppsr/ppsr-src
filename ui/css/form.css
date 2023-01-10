@@ -15,18 +15,18 @@ label {
     background-origin: padding-box;
     padding-right: 1em;
    }
-
-.primary {
-    background-color: var(--afsa-teal-secondary);
-    color: var(--afsa-white-tertiary);
-  }
   
-  button {
+  .main-buttons {
     border-radius: 0.2rem;
     border: 1px solid var(--afsa-teal-secondary);
     margin-top: 1rem;
     margin-right: 1rem;
     padding: 0.5rem;
+  }
+
+  .primary {
+    background-color: var(--afsa-teal-secondary);
+    color: var(--afsa-white-tertiary);
   }
   
   .secondary {
@@ -40,6 +40,7 @@ label {
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 0.2rem;
+    display: flex;
   }
   
   .ppsr-form h2 {
@@ -133,4 +134,55 @@ label {
     display: block;
     margin-left: 0rem;
     border: 1px solid var(--afsa-teal-secondary);
+  }
+
+
+.td-no-border {
+    border: none;
+  }
+  
+  .info-panel {
+    width: 70%;
+    display: flex;
+    margin-bottom: 1em;
+  }
+  
+  .info-panel-p {
+    padding: 1.5em;
+  }
+  
+  .info-panel-icon {
+    width: 90%;	
+  }
+  
+  .teal-part {
+    background-color: var(--afsa-teal-secondary);
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border: 1px solid var(--afsa-teal-secondary);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+  }
+  
+  .purple-part {
+    background-color: var(--afsa-violet-secondary);
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border: 1px solid var(--afsa-violet-secondary);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+  }
+  
+  .white-part {
+    border: 1px solid var(--afsa-teal-secondary);
+    width: 85%;
+    display: inline-block;
+  }
+  
+  .confirmation-body {
+    width: 70%;
   }
