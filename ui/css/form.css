@@ -43,8 +43,16 @@ label {
   }
   .form-elements {
     display: flex;
-    flex-direction: column;
   }
+
+  .form-element-left {
+    width: 70%;
+  }
+
+  .supporting-text-right {
+    width: 30%;
+  }
+  
   .ppsr-form h2 {
     margin-bottom: 1em;
   }
