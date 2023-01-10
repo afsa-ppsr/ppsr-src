@@ -5,6 +5,7 @@
 
 @import "afsa-style.css";
 @import "icons.css";
+@import "form.css";
 
 
 html, body, div, span, applet, object, iframe,
@@ -488,11 +489,6 @@ ul li {
   margin-left: 1.25em;
 }
 
-input[type="text"], input[type="password"], input[type="checkbox"], select {
- margin-top: 1em;
- margin-bottom: 1em;
-}
-
 .login {
  color: white;
  font-weight: bold;
@@ -503,19 +499,6 @@ input[type="text"], input[type="password"], input[type="checkbox"], select {
  padding: 1em;
  border-radius: 0.5em;
  border: 1px solid #2d7c97;
-}
-
-label {
- margin-top: 1em;
- margin-bottom: 1em;
-}
-
-.mandatory {
- background-image: url("../images/mandatory.png");
- background-repeat: no-repeat;
- background-position-x: right;
- background-origin: padding-box;
- padding-right: 1em;
 }
 
 td {
@@ -532,124 +515,7 @@ thead td h4 {
   margin-bottom: 1rem;
 }
 
-.primary {
-  background-color: var(--afsa-teal-secondary);
-  color: var(--afsa-white-tertiary);
-}
 
-button {
-  border-radius: 0.2rem;
-  border: 1px solid var(--afsa-teal-secondary);
-  margin-top: 1rem;
-  margin-right: 1rem;
-  padding: 0.5rem;
-}
-
-.secondary {
-  background-color: var(--afsa-white-tertiary);
-  color: var(--afsa-teal-secondary);
-}
-
-.ppsr-form {
-  background-color: var(--afsa-grey-tertiary);
-  width: 70%;
-  padding: 1rem;
-  margin-top: 1rem;
-  border-radius: 0.2rem;
-}
-
-.ppsr-form h2 {
-  margin-bottom: 1em;
-}
-
-.pi-bundle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.progress-indicator {
-  display: flex;
-  justify-content: space-evenly;
-  width: 70%;
-}
-
-.progress-indicator-step-n {
-  margin-top: 1.5em;
-}
-
-.progress-indicator-step {  
-  border-radius: 50%;
-  margin: 1rem;
-  width: 4rem;
-  height: 4rem;
-  text-align: center;
-}
-
-textarea {
-  width: 250px;
-  height: 150px;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.normal {
-  background-color: var(--afsa-grey-tertiary);
-  color:#333;
-}
-
-.active {
-  background-color: var(--afsa-teal-secondary);
-  color: var(--afsa-white-tertiary);
-}
-
-.cta {
-  background-color: var(--afsa-purple-primary);
-  color: var(--afsa-white-tertiary);
-  border: 1px solid var(--afsa-purple-primary);
-  float: right;
-  margin-bottom: 0.5rem;
-}
-
-.use-account {
-  background-color: var(--afsa-purple-primary);
-  color: var(--afsa-white-tertiary);
-  border: 1px solid var(--afsa-purple-primary);
-  margin-bottom: 0.5rem;
-}
-
-.accordion-heading {
- display: block;	
-}
-
-.accordion-heading h2, .accordion-heading h3 {
- display: inline-block;	
-}
-
-.accordion {
- display: inline-block;
- background-color: var(--afsa-teal-secondary);
- border: 1px solid var(--afsa-teal-secondary);
- border-radius: 50%;
- width: 1rem;
- height: 1rem;
- text-align: center;
- margin-right: 0.5rem;
- color: var(--afsa-white-tertiary);
-}
-
-.review-section-button {
-  margin-bottom: 1em;
-  width: 70%;
-}
-
-hr {
-  width: 70%;
-  display: block;
-  margin-left: 0rem;
-  border: 1px solid var(--afsa-teal-secondary);
-}
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
