@@ -616,7 +616,7 @@ button {
  display: block;	
 }
 
-.accordion-heading h2 {
+.accordion-heading h2, .accordion-heading h3 {
  display: inline-block;	
 }
 
