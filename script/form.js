@@ -71,7 +71,7 @@ function toggle_b2g(e){
   if (e.innerHTML == "+"){
     e.innerHTML = "-";
     b2g_settings.style.display = "flex";
-  } else (e.innerHTML == "-"){
+  } else {
     e.innerHTML = "+";
     b2g_settings.style.display = "none";
   }
