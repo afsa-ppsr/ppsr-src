@@ -17,7 +17,7 @@ function toggle_accordion(){
   }
 }
 
-function select_secured_party(src){
+function select_secured_party(){
   var individual = document.getElementById("individual");
   var org = document.getElementById("organisation");
 
