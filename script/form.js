@@ -104,23 +104,22 @@ function select_arfn_ready(){
 function set_hr_position(){
   var hr = document.getElementsbyClassName("hr-progress-indicator")[0];
   
-  var pi_bundle = document.getElementsByClassName("pi-bundle")[0].
+  var pi_bundle = document.getElementsByClassName("pi-bundle")[0];
   
   var p = pi_bundle.getElementsByTagName("p")[0];
   
   hr.style.top = p.getBoundingClientRect().y + "px";
-}
+};
 
 function set_hr_position_ready(){
   if (document.readyState == 'complete'){
     set_hr_position();
-  }
+  };
   
   window.addEventListener('resize', function(event){
     set_hr_position();
   });
 };
 
-if (document.getElementsByClassName("hr-progress-indicator").length != 0){
-  set_hr_position_ready(); 
-}
+set_hr_position_ready(); 
+
