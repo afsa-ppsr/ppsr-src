@@ -65,6 +65,10 @@ function show_verify_info(){
   return false;
 }
 
+function toggle_b2g(e){
+  console.log(e.innerHTML);
+}
+
 function ready() {
   if (document.readyState == 'complete'){
     select_secured_party();
