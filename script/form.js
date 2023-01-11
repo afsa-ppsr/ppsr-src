@@ -102,7 +102,7 @@ function select_arfn_ready(){
 };
 
 function set_hr_position(){
-  var hr = document.getElementsbyClassName("hr-progress-indicator")[0];
+  var hr = document.getElementsByClassName("hr-progress-indicator")[0];
   
   var pi_bundle = document.getElementsByClassName("pi-bundle")[0];
   
