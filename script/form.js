@@ -32,3 +32,5 @@ function select_secured_party(){
 
   //alert(src.value);
 };
+
+select_secured_party();
