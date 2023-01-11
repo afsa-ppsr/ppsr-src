@@ -26,16 +26,18 @@ function select_secured_party(){
 
   var verify = document.getElementById("verify-arfn-arsn");
 
+  var v_info = document.getElementById("verify-info");
+
   if (individual.checked == true){
     secured_party_name.style.display = 'block';
     arfn.style.display = 'none';
     verify.style.display = 'none';
+    v_info.style.display = 'none';
   } 
   if(org.checked == true) {
     secured_party_name.style.display = "none";
     arfn.style.display = 'block';
   }
-  //alert(src.value);
 };
 
 function select_arfn(){
@@ -44,6 +46,7 @@ function select_arfn(){
 
   var org = document.getElementById("organisation");
   var verify = document.getElementById("verify-arfn-arsn");
+  var v_info = document.getElementById("verify-info");
 
   if (org.checked == true){
     if (yes_arfn.checked == true){
@@ -51,9 +54,14 @@ function select_arfn(){
     }
     if (no_arfn.checked == true){
       verify.style.display = "none";
+      v_info.style.display = "none";
     }
-  }
-  
+  } 
+};
+
+function show_verify_info(){
+  var v_info = document.getElementById("verify-info");
+  v_info.style.display = "block";
 }
 
 function ready() {
