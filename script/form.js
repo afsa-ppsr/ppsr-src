@@ -62,6 +62,7 @@ function select_arfn(){
 function show_verify_info(){
   var v_info = document.getElementById("verify-info");
   v_info.style.display = "block";
+  return false;
 }
 
 function ready() {
