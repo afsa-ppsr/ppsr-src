@@ -37,7 +37,6 @@ function select_secured_party(){
 
 function ready() {
   if (document.readyState == 'complete'){
-    debugger;
     select_secured_party();
   } 
 };
