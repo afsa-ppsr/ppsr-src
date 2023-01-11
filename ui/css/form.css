@@ -45,6 +45,10 @@ label {
     display: flex;
   }
 
+  .b2g-settings, .goni-settings {
+    display: none;
+  }
+
   .form-element-left {
     width: 70%;
   }

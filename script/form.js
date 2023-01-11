@@ -77,6 +77,18 @@ function toggle_b2g(e){
   }
 };
 
+function toggle_goni(e){
+  var goni_settings = document.getElementById("goni-settings");
+
+  if (e.innerHTML == "+"){
+    e.innerHTML = "-";
+    goni_settings.style.display = "flex";
+  } else {
+    e.innerHTML = "+";
+    goni_settings.style.display = "none";
+  }
+};
+
 function ready() {
   if (document.readyState == 'complete'){
     select_secured_party();
