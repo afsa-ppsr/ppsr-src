@@ -36,15 +36,9 @@ function select_secured_party(){
 };
 
 function ready() {
-  if (document.readyState != 'loading'){
-    select_secured_party();
-  } else if (document.addEventListener) {
-    document.addEventListener('DOMContentLoaded', select_secured_party());
+  if (document.readyState == 'loading'){
   } else {
-    document.attachEvent('onreadystatechange', function() {
-      if (document.readyState != 'loading')
-      select_secured_party();
-    });
+    select_secured_party();
   }
 }
 
