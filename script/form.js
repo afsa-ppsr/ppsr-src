@@ -16,3 +16,18 @@ function toggle_accordion(){
     form.style.display = "block";
   }
 }
+
+function select_secured_party(){
+  var individual = document.getElementById("individual");
+  var org = document.getElementById("organisation");
+
+  var secured_party_name = document.getElementById("individual-secured-party-name");
+
+  if (individual.checked = true){
+    org.checked = false;
+    secured_party_name.style.display = '';
+  } else {
+    org.checked = true;
+    secured_party_name.style.display = "none";
+  }
+}
