@@ -18,16 +18,17 @@ function toggle_accordion(){
 }
 
 function select_secured_party(src){
-  // var individual = document.getElementById("individual");
-  // var org = document.getElementById("organisation");
+  var individual = document.getElementById("individual");
+  var org = document.getElementById("organisation");
 
-  // var secured_party_name = document.getElementById("individual-secured-party-name");
+  var secured_party_name = document.getElementById("individual-secured-party-name");
 
-  // if (individual.checked = true){
-  //   secured_party_name.style.display = '';
-  // } else {
-  //   secured_party_name.style.display = "none";
-  // }
+  if (individual.checked = true){
+    secured_party_name.style.display = '';
+  } 
+  if(organisation.checked = true) {
+    secured_party_name.style.display = "none";
+  }
 
-  alert(src.value);
+  //alert(src.value);
 }
