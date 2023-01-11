@@ -15,7 +15,7 @@ function toggle_accordion(){
     accordion.innerHTML = "-";
     form.style.display = "block";
   }
-}
+};
 
 function select_secured_party(){
   var individual = document.getElementById("individual");
@@ -31,4 +31,4 @@ function select_secured_party(){
   }
 
   //alert(src.value);
-}
+};
