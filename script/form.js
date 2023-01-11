@@ -59,3 +59,8 @@ function ready() {
   } 
 };
 
+function select_arfn_ready(){
+  if (document.readyState == 'complete'){
+    select_arfn();
+  } 
+};
