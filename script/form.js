@@ -28,13 +28,30 @@ function select_secured_party(){
     secured_party_name.style.display = 'block';
     arfn.style.display = 'none';
   } 
-  if(organisation.checked == true) {
+  if(org.checked == true) {
     secured_party_name.style.display = "none";
     arfn.style.display = 'block';
   }
-
   //alert(src.value);
 };
+
+function select_arfn(){
+  var yes_arfn = document.getElementById("yes-arfn");
+  var no_arfn = document.getElementById("no-arfn");
+
+  var org = document.getElementById("organisation");
+  var verify = document.getElementById("verify-arfn-arsn");
+
+  if (org.checked == true){
+    if (yes_arfn.checked == true){
+      verify.style.display = "block";
+    }
+    if (no_arfn.checked == true){
+      verify.style.display = "none";
+    }
+  }
+  
+}
 
 function ready() {
   if (document.readyState == 'complete'){
