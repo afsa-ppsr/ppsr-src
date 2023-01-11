@@ -113,6 +113,7 @@ function set_hr_position(){
 
 function set_hr_position_ready(){
   if (document.readyState == 'complete'){
+    debugger;
     set_hr_position();
   };
   
