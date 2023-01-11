@@ -515,6 +515,9 @@ thead td h4 {
   margin-bottom: 1rem;
 }
 
+button:hover {
+ cursor: pointer;	
+}
 
 
 /* mobile menu */
