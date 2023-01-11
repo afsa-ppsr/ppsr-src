@@ -33,4 +33,17 @@ function select_secured_party(){
   //alert(src.value);
 };
 
-select_secured_party();
+function ready() {
+  if (document.readyState != 'loading'){
+    select_secured_party();
+  } else if (document.addEventListener) {
+    document.addEventListener('DOMContentLoaded', fn);
+  } else {
+    document.attachEvent('onreadystatechange', function() {
+      if (document.readyState != 'loading')
+      select_secured_party();
+    });
+  }
+}
+
+ready();
