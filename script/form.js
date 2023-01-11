@@ -36,10 +36,9 @@ function select_secured_party(){
 };
 
 function ready() {
-  if (document.readyState == 'loading'){
-  } else {
+  if (document.readyState == 'complete'){
     select_secured_party();
-  }
-}
+  } 
+};
 
 ready();
