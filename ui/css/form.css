@@ -154,6 +154,12 @@ label {
     border: 1px solid var(--afsa-teal-secondary);
   }
 
+.hr-progress-indicator {
+    width: 70%;
+    position: absolute;
+    border: 1px solid black;
+}
+
 
 .td-no-border {
     border: none;
