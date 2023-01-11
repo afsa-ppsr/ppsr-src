@@ -24,9 +24,12 @@ function select_secured_party(){
   var secured_party_name = document.getElementById("individual-secured-party-name");
   var arfn = document.getElementById("organisation-arfn-arsn");
 
+  var verify = document.getElementById("verify-arfn-arsn");
+
   if (individual.checked == true){
     secured_party_name.style.display = 'block';
     arfn.style.display = 'none';
+    verify.style.display = 'none';
   } 
   if(org.checked == true) {
     secured_party_name.style.display = "none";
