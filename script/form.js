@@ -23,6 +23,8 @@ function select_secured_party(){
 
   var secured_party_name = document.getElementById("individual-secured-party-name");
 
+  debugger;
+
   if (individual.checked == true){
     secured_party_name.style.display = '';
   } 
