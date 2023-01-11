@@ -22,7 +22,7 @@ function select_secured_party(){
   var org = document.getElementById("organisation");
 
   var secured_party_name = document.getElementById("individual-secured-party-name");
-
+  var arfn = document.getElementById("organisation-arfn-arsn");
   
 
   if (individual.checked == true){
@@ -30,6 +30,7 @@ function select_secured_party(){
   } 
   if(organisation.checked == true) {
     secured_party_name.style.display = "none";
+    arfn.style.display = '';
   }
 
   //alert(src.value);

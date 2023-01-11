@@ -52,6 +52,10 @@ label {
   .supporting-text-right {
     width: 30%;
   }
+
+  #individual-secured-party-name, #organisation-arfn-arsn {
+    display: none;
+  }
   
   .ppsr-form h2 {
     margin-bottom: 1em;
