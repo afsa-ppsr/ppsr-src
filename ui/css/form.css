@@ -181,7 +181,8 @@ label {
     border: 1px solid var(--afsa-teal-secondary);
     width: 15%;
     display: flex;
-    justify-content: center;	
+    justify-content: center;
+    align-items: center;
   }
   
   .purple-part {
@@ -200,7 +201,7 @@ label {
     width: 85%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
   }
   
   .confirmation-body {
