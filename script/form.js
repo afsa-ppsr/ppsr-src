@@ -23,10 +23,10 @@ function select_secured_party(){
 
   var secured_party_name = document.getElementById("individual-secured-party-name");
 
-  if (individual.checked = true){
+  if (individual.checked == true){
     secured_party_name.style.display = '';
   } 
-  if(organisation.checked = true) {
+  if(organisation.checked == true) {
     secured_party_name.style.display = "none";
   }
 
