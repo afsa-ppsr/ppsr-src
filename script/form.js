@@ -63,11 +63,19 @@ function show_verify_info(){
   var v_info = document.getElementById("verify-info");
   v_info.style.display = "block";
   return false;
-}
+};
 
 function toggle_b2g(e){
-  console.log(e.innerHTML);
-}
+  var b2g_settings = document.getElementById("b2g-settings");
+
+  if (e.innerHTML == "+"){
+    e.innerHTML = "-";
+    b2g_settings.style.display = "flex";
+  } else (e.innerHTML == "-"){
+    e.innerHTML = "+";
+    b2g_settings.style.display = "none";
+  }
+};
 
 function ready() {
   if (document.readyState == 'complete'){
