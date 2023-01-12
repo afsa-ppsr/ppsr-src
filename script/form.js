@@ -112,10 +112,9 @@ function set_hr_position(){
 };
 
 function set_hr_position_ready(){
-  if (document.readyState == 'complete'){
-    debugger;
+    window.addEventListener('load', function(event){
     set_hr_position();
-  };
+  });
   
   window.addEventListener('resize', function(event){
     set_hr_position();
