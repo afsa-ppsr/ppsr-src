@@ -161,11 +161,11 @@ function show_supporting_text(event){
 };
 
 let inputs = document.querySelectorAll("input");
-
+debugger;
 inputs.forEach(input => {
   input.addEventListener('change', e => {
     debugger;
     show_supporting_text(e);
   })
-})
+});
 
