@@ -160,12 +160,18 @@ function show_supporting_text(event){
   supporting_text.style.display = "block";
 };
 
-let inputs = document.querySelectorAll("input");
-debugger;
-inputs.forEach(input => {
-  input.addEventListener('change', e => {
+function show_supporting_text_ready(){
+  if (document.readyState == 'complete'){
+    let inputs = document.querySelectorAll("input");
     debugger;
-    show_supporting_text(e);
-  })
-});
+    inputs.forEach(input => {
+      input.addEventListener('change', e => {
+        debugger;
+        show_supporting_text(e);
+      })
+    })
+  }
+};
+
+show_supporting_text_ready();
 
