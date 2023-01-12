@@ -37,7 +37,6 @@ label {
   .ppsr-form {
     background-color: var(--afsa-grey-tertiary);
     width: 70%;
-    padding: 1rem;
     margin-top: 1rem;
     border-radius: 0.2rem;
   }
@@ -63,7 +62,14 @@ label {
 
   .ppsr-form h2 {
     margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1rem;
   }
+
+  .form-elements {
+    margin-left: 1rem;
+      
+   }
   
   .pi-bundle {
     display: flex;
