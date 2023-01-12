@@ -129,10 +129,13 @@ set_hr_position_ready();
 
 function show_identifier_options(){
   var org_identifier_type = document.getElementById("org-identifier-type");
-  var input = document.getElementById("yes");
-  if(input.checked = true){
+  var input_yes = document.getElementById("yes");
+  var input_no = document.getElementById("no");
+  
+  if(input_yes.checked = true){
     org_identifier_type.style.display = "block";
-  } else {
+  }
+  if (input_no.checked = true){
     org_identifier_type.style.display = "none"; 
   }
 };
