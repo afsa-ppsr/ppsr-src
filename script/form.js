@@ -132,10 +132,10 @@ function show_identifier_options(){
   var input_yes = document.getElementById("yes");
   var input_no = document.getElementById("no");
   
-  if(input_yes.checked = true){
+  if(input_yes.checked == true){
     org_identifier_type.style.display = "block";
   }
-  if (input_no.checked = true){
+  if (input_no.checked == true){
     org_identifier_type.style.display = "none"; 
   }
 };
