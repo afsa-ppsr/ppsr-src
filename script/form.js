@@ -147,7 +147,6 @@ function show_identifier_options_ready(){
 };
 
 function show_supporting_text(event){
-  debugger;
   var grandparent = event.target.parentElement.parentElement; //gets form elements div
   var supporting_text = grandparent.getElementsByClassName("supporting-text-right")[0];
   var all_supporting_text = document.getElementsByClassName("supporting-text-right");
