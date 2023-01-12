@@ -226,3 +226,12 @@ label {
   .supporting-text-right {
     display: none;
   }
+
+  .spg-help-text p {
+    margin: 0;
+  }
+
+  .spg-help-text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
