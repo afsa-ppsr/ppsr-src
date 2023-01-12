@@ -110,7 +110,7 @@ function set_hr_position(){
   
   var p = pi_bundle.getElementsByTagName("p")[0];
   
-  hr.style.top = (p.getBoundingClientRect().y - 3) + "px";
+  hr.style.top = (p.getBoundingClientRect().y - 16) + "px";
   
   hr.style.width = pi.clientWidth + "px";
 };
