@@ -164,7 +164,7 @@ function show_supporting_text_ready(e){
   if (document.readyState == 'complete'){
     let inputs = document.querySelectorAll("input");
     inputs.forEach(input => {
-      input.addEventListener('change', e => {
+      input.addEventListener('focus', e => {
         show_supporting_text(e);
       })
     })
