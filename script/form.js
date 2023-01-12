@@ -106,9 +106,13 @@ function set_hr_position(){
   
   var pi_bundle = document.getElementsByClassName("pi-bundle")[0];
   
+  var pi = document.getElemensByClassName("progress-indicator")[0];
+  
   var p = pi_bundle.getElementsByTagName("p")[0];
   
   hr.style.top = p.getBoundingClientRect().y + "px";
+  
+  hr.style.width = pi.clientWidth + "px";
 };
 
 function set_hr_position_ready(){
