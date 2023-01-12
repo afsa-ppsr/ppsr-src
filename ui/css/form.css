@@ -234,4 +234,6 @@ label {
   .spg-help-text {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width: 70%;
+    line-height: 1.5em;
   }
