@@ -56,6 +56,10 @@ label {
     width: 30%;
   }
 
+  #org-identifier-type {
+   margin-top: 1rem;     
+}
+
   #individual-secured-party-name, #organisation-arfn-arsn, #verify-arfn-arsn, #verify-info {
     display: none;
   }
