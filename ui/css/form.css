@@ -208,6 +208,7 @@ label {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 1rem;
   }
   
   .confirmation-body {
