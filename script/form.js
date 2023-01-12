@@ -127,3 +127,18 @@ function set_hr_position_ready(){
 
 set_hr_position_ready(); 
 
+function show_identifier_options(){
+  var org_identifier_type = document.getElementById("org-identifier-type");
+  var input = document.getElementById("yes");
+  if(input.checked = true){
+    org_identifier_type.style.display = "block";
+  } else {
+    org_identifier_type.style.display = "none"; 
+  }
+};
+
+function show_identifier_options_ready(){
+  if (document.readyState == 'complete'){
+    show_identifier_options();
+  } 
+};
