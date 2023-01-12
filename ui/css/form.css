@@ -222,3 +222,7 @@ label {
   .confirmation-body {
     width: 70%;
   }
+
+  .supporting-text {
+    display: none;
+  }

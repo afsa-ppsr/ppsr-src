@@ -145,3 +145,27 @@ function show_identifier_options_ready(){
     show_identifier_options();
   } 
 };
+
+function show_supporting_text(event){
+  var grandparent = event.parentElement.parentElement; //gets form elements div
+  var supporting_text = grandparent.getElementsByClassName("supporting-text-right")[0];
+  var all_supporting_text = document.getElementsByClassName("supporting-text");
+
+  /*make all supporting text disappear*/
+  for (var i=0; i < all_supporting_text.length; i++){
+    all_supporting_text[i].style.display = "none";
+  }
+
+  /*show supporting text inside grandparent*/
+  supporting_text.style.display = "block";
+};
+
+let inputs = document.querySelectorAll("input");
+
+inputs.forEach(input => {
+  input.addEventListener('change', e => {
+    debugger;
+    show_supporting_text(e);
+  })
+})
+
