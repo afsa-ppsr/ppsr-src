@@ -82,9 +82,10 @@ h1{
 }
 
 h2{
-    font-size: 1.5rem;
-    line-height: 1.7rem;
-    font-size: 1.35rem;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+		margin-bottom:1rem;
+		margin-top:4rem;
 
 }
 
@@ -196,11 +197,18 @@ p, blockquote, ul, ol{
 	background:#EBF7F8;
 }
 
-.promo-card p, .promo-card ul, .promo-card ol{
+.promo-card ul, .promo-card ol{
 	text-align: left;
+	max-width: 100%;
 }
 
-.promo-card h2, .promo-card h3{
+.promo-card p, .info-card p{
+	text-align: center;
+	max-width: 100%;
+
+}
+
+.promo-card h2, .promo-card h3, .info-card h2, .info-card h3{
 	color:#009aa8;
 	text-align: center;
 }
@@ -259,7 +267,7 @@ border: 2px solid #d8e1e9;
 	padding:0;
 }
 
-.promo-card p, .promo-card ul{
+.promo-card p, .promo-card ul, .info-card p, .info-card ul{
 	font-size:.9rem;
 	margin-top:1rem;
 	line-height:1.2rem;
@@ -274,7 +282,7 @@ border: 2px solid #d8e1e9;
 
 
 ul li{
-	list-style-type: circle;
+	list-style-type: disc;
 	padding-left:0.5rem;
 	list-style-position: outside;
 	line-height:1.2rem;
@@ -441,11 +449,10 @@ p, blockquote, ul, ol{
 }
 
 #foot ul li{
-  display:block;
+  display:inline-inline-block;
   float:left;
-  width:16.6%;
 	padding:0;
-	margin:0 0 1rem 0;
+	margin:0 2.5rem 1rem 0;
 }
 
 #foot a{
@@ -516,13 +523,17 @@ thead td h4 {
 }
 
 button:hover {
- cursor: pointer;	
+ cursor: pointer;
 }
 
 
 /* mobile menu */
 #mobile-menu, #mobile-menu-list{
   display:none;
+}
+
+.home #breadcrumbs{
+	visibility: hidden;
 }
 
 
