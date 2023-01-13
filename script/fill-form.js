@@ -1,5 +1,6 @@
 document.addEventListener('load', e=> {
     var field = document.getElementById("account-customer-name");
+    debugger;
     if (field.value == ''){
         field.value = sessionStorage.getItem('account_customer_name');
     }
