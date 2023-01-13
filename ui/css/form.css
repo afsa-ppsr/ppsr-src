@@ -257,4 +257,11 @@ label {
     display: none;
   }
 
+  .review-section-button table {
+    margin-top: 1rem;
+  }
+
+  .review-section-button h2 {
+    margin-bottom: 1rem;
+  }
   
