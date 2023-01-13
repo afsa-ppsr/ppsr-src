@@ -131,7 +131,9 @@ label {
   }
   
   .accordion-heading {
-   display: block;	
+   display: block;
+   margin-left: 1rem;
+   margin-top: 1rem;	
   }
   
   .accordion-heading h2, .accordion-heading h3 {
