@@ -89,6 +89,17 @@ function toggle_goni(e){
   }
 };
 
+function toggle_physical_ad(){
+  var physical_ad = document.getElementById("form-element-left-physical-ad");
+  var physical_ad_input = document.getElementById("physical_address");
+
+  if ( physical_ad_input.checked == true){
+    physical_ad.style.display = "block";
+  } else {
+    physical_ad.style.display = "none";
+  }
+}
+
 function ready() {
   if (document.readyState == 'complete'){
     select_secured_party();
