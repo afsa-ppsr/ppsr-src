@@ -93,6 +93,7 @@ function toggle_physical_ad(){
   var physical_ad = document.getElementById("form-element-left-physical-ad");
   var physical_ad_input = document.getElementById("physical_address");
 
+  debugger;
   if ( physical_ad_input.checked == true){
     physical_ad.style.display = "block";
   } else {
