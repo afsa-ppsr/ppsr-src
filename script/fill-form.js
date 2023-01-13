@@ -1,5 +1,4 @@
 document.addEventListener('readystatechange', e=> {
-    debugger;
     var field = document.getElementById("account-customer-name");
     if (field.value == ''){
         field.value = sessionStorage.getItem('account_customer_name');
