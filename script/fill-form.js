@@ -1,5 +1,5 @@
-
-if (document.readyState == "complete"){
+debugger;
+if (document.readyState == complete){
     debugger;
     var field = document.getElementById("account-customer-name");
 
