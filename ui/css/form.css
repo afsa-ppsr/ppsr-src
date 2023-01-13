@@ -244,3 +244,11 @@ label {
     margin-left: 1rem;
     margin-top: 1rem;
   }
+
+  .optional-settings p:first-of-type {
+    margin-top: 1rem;
+  }
+
+  .b2g-settings, .goni-settings {
+    display: none;
+  }
