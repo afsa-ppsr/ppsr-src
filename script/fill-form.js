@@ -1,5 +1,6 @@
 
 while (document.readyState == "complete"){
+    debugger;
     var field = document.getElementById("account-customer-name");
 
     if (field != null){ 
