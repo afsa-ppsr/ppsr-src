@@ -1,3 +1,4 @@
+//remembers value 
 document.addEventListener('readystatechange', e=> {
     var field = document.getElementById("account-customer-name");
     if (field.value == ''){
@@ -5,6 +6,7 @@ document.addEventListener('readystatechange', e=> {
     }
 });
 
+//changes value on user input
 document.addEventListener('change', e => {
     var field = document.getElementById("account-customer-name");
 
