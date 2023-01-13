@@ -1,6 +1,4 @@
-debugger;
-if (document.readyState == complete){
-    debugger;
+document.addEventListener('readystatechange', e => {
     var field = document.getElementById("account-customer-name");
 
     if (field != null){ 
