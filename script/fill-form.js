@@ -1,3 +1,10 @@
+document.addEventListener('readystatechange', e=> {
+    var field = document.getElementById("account-customer-name");
+    if (field.value == null){
+        field.value = sessionStorage.getItem('account_customer_name');
+    }
+});
+
 document.addEventListener('change', e => {
     var field = document.getElementById("account-customer-name");
 
@@ -7,4 +14,6 @@ document.addEventListener('change', e => {
         sessionStorage.setItem('account_customer_name', field_value);
     }
 });
+
+
 
