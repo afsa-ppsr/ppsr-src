@@ -585,9 +585,9 @@ button:hover {
 	}
 
 	.group-background .promo-card, .group-background .info-card{
-		width:96%;
-		margin-left:2%;
-		margin-right:2%;
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
 	}
 
 	.group-background{
