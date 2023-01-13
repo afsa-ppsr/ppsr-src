@@ -1,5 +1,5 @@
 
-while (document.readyState == "complete"){
+if (document.readyState == "complete"){
     debugger;
     var field = document.getElementById("account-customer-name");
 
