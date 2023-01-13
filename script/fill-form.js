@@ -6,4 +6,4 @@ document.addEventListener('readystatechange', e => {
 
         sessionStorage.setItem('account_customer_name', field.value);
     }
-}
+});
