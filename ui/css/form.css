@@ -249,6 +249,6 @@ label {
     margin-top: 1rem;
   }
 
-  .b2g-settings, .goni-settings {
+  #b2g-settings, #goni-settings {
     display: none;
   }
