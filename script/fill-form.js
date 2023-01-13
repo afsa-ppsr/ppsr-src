@@ -1,6 +1,6 @@
-document.addEventListener('readystatechange', e=> {
+document.addEventListener('load', e=> {
     var field = document.getElementById("account-customer-name");
-    if (field.value == null){
+    if (field.value == ''){
         field.value = sessionStorage.getItem('account_customer_name');
     }
 });
