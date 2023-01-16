@@ -22,7 +22,7 @@ function toggle_accordion_description(e){
   var a_desc = e.parentElement.getElementsByClassName("additional-details-description");
 
   if (e.innerHTML == "-"){
-   accordion.innerHTML = "+";
+   e.innerHTML = "+";
    a_desc.style.display = "none";
   } else {
     e.innerHTML = "-";
