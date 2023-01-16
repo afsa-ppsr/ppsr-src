@@ -205,6 +205,21 @@ document.addEventListener('readystatechange', e => {
   show_supporting_text_ready(e);
 });
 
+// create registrations
+
+function set_secured_party(){
+  let select = document.querySelector("select");
+  var spg_details = document.getElementById("spg-details");
+  var account_fav = document.getElementById("account-favourite");
+  if (select.value == "Test SPG"){
+    //display details
+    spg_details.style.display = "block";
+    //select account favourite
+    account_fav.checked = true;
+    account_fav.disabled = true;
+  }
+}
+
 function set_collateral_class(e){
   if (document.readyState == 'complete'){
     let inputs = document.querySelectorAll("[name='collateral-class']");
