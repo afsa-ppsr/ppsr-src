@@ -205,4 +205,20 @@ document.addEventListener('readystatechange', e => {
   show_supporting_text_ready(e);
 });
 
+function change_collateral_class(e){
+  if (document.readyState == 'complete'){
+    let inputs = document.querySelectorAll("[name='collateral-class']");
+    inputs.forEach(input => {
+      input.addEventListener('click', e => {
+        //disable selection
+        e.target.disabled = true;
+      })
+    })
+  }
+};
+
+document.addEventListener('readystatechange', e => {
+  change_collateral_class(e);
+});
+
 
