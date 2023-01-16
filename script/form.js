@@ -216,9 +216,9 @@ function change_collateral_class(e){
         }
         //set collateral class
         var cc = document.getElementById("cc");
-        var inner_html = e.target.innerHTML;
+        var value = e.target.value;
         debugger;
-        cc.innerHTML = inner_html;
+        cc.innerHTML = value;
       })
     })
   }
