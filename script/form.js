@@ -205,7 +205,7 @@ document.addEventListener('readystatechange', e => {
   show_supporting_text_ready(e);
 });
 
-function change_collateral_class(e){
+function set_collateral_class(e){
   if (document.readyState == 'complete'){
     let inputs = document.querySelectorAll("[name='collateral-class']");
     inputs.forEach(input => {
@@ -217,7 +217,6 @@ function change_collateral_class(e){
         //set collateral class
         var cc = document.getElementById("cc");
         var value = e.target.value;
-        debugger;
         cc.innerHTML = value;
       })
     })
@@ -225,7 +224,14 @@ function change_collateral_class(e){
 };
 
 document.addEventListener('readystatechange', e => {
-  change_collateral_class(e);
+  set_collateral_class(e);
 });
+
+function change_collateral_class(){
+  let inputs = document.querySelectorAll("[name='collateral-class']");
+  for (var i = 0; i < inputs.length; i++){
+    inputs[i].disabled = false;
+  }
+}
 
 
