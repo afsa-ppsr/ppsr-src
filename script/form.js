@@ -211,7 +211,11 @@ function change_collateral_class(e){
     inputs.forEach(input => {
       input.addEventListener('click', e => {
         //disable selection
-        e.target.disabled = true;
+        for (var i = 0; i < inputs.length; i++){
+          inputs[i].disabled = true;
+        }
+        var inner_html = e.target.innerHTML;
+        console.log(inner_html);
       })
     })
   }
