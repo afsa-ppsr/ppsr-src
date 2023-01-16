@@ -214,8 +214,10 @@ function change_collateral_class(e){
         for (var i = 0; i < inputs.length; i++){
           inputs[i].disabled = true;
         }
+        //set collateral class
+        var cc = document.getElementById("cc");
         var inner_html = e.target.innerHTML;
-        console.log(inner_html);
+        cc.innerHTML = inner_html;
       })
     })
   }
