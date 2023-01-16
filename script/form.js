@@ -217,6 +217,7 @@ function change_collateral_class(e){
         //set collateral class
         var cc = document.getElementById("cc");
         var inner_html = e.target.innerHTML;
+        debugger;
         cc.innerHTML = inner_html;
       })
     })
