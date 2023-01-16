@@ -75,7 +75,7 @@ label {
     display: none;
   }
 
-  .ppsr-form h2 {
+  .ppsr-form h2, .ppsr-form h3 {
     margin-bottom: 1em;
     margin-top: 1em;
     margin-left: 1rem;
