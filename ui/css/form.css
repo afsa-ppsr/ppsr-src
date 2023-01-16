@@ -66,6 +66,10 @@ label {
     margin-left: 1rem;
   }
 
+  .additional-details-description {
+    display: none;
+  }
+
   .supporting-text-right {
     width: 30%;
   }
