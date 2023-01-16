@@ -188,6 +188,7 @@ function show_supporting_text_ready(e){
   if (document.readyState == 'complete'){
     let inputs = document.querySelectorAll("input");
     let selects = document.querySelectorAll("select");
+    let textareas = document.querySelectorAll("textarea");
     inputs.forEach(input => {
       input.addEventListener('focus', e => {
         show_supporting_text(e);
@@ -195,6 +196,11 @@ function show_supporting_text_ready(e){
     })
     selects.forEach(select => {
       select.addEventListener('focus', e => {
+        show_supporting_text(e);
+      })
+    })
+    textareas.forEach(textarea => {
+      textarea.addEventListener('focus', e => {
         show_supporting_text(e);
       })
     })
