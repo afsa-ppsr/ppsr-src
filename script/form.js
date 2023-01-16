@@ -17,6 +17,19 @@ function toggle_accordion(){
   }
 };
 
+function toggle_accordion_description(e){
+
+  var a_desc = e.parentElement.getElementsByClassName("additional-details-description");
+
+  if (accordion.innerHTML == "-"){
+   accordion.innerHTML = "+";
+   a_desc.style.display = "none";
+  } else {
+    accordion.innerHTML = "-";
+    a_desc.style.display = "block";
+  }
+};
+
 function select_secured_party(){
   var individual = document.getElementById("individual");
   var org = document.getElementById("organisation");
