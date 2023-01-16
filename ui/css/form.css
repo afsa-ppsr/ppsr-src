@@ -279,4 +279,9 @@ label {
   .review-section-button h2 {
     margin-bottom: 1rem;
   }
+
+  .spg-border-bottom {
+    border-bottom: 0.2em solid teal;
+    padding: 0.2em;
+  }
   
