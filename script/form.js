@@ -19,7 +19,7 @@ function toggle_accordion(){
 
 function toggle_accordion_description(e){
 
-  var a_desc = e.parentElement.getElementsByClassName("additional-details-description");
+  var a_desc = e.parentElement.getElementsByClassName("additional-details-description")[0];
 
   if (e.innerHTML == "-"){
    e.innerHTML = "+";
