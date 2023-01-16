@@ -58,6 +58,10 @@ label {
     width: 25%;
   }
 
+  #collateral-class-text {
+    margin-left: 1rem;
+  }
+
   .supporting-text-right {
     width: 30%;
   }
