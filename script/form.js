@@ -21,11 +21,11 @@ function toggle_accordion_description(e){
 
   var a_desc = e.parentElement.getElementsByClassName("additional-details-description");
 
-  if (accordion.innerHTML == "-"){
+  if (e.innerHTML == "-"){
    accordion.innerHTML = "+";
    a_desc.style.display = "none";
   } else {
-    accordion.innerHTML = "-";
+    e.innerHTML = "-";
     a_desc.style.display = "block";
   }
 };
