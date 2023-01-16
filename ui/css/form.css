@@ -284,4 +284,8 @@ label {
     border-bottom: 0.2em solid teal;
     padding: 0.2em;
   }
+
+  #spg-details {
+    display: none;
+  }
   
