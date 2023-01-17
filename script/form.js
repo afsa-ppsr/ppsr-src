@@ -211,6 +211,17 @@ document.addEventListener('readystatechange', e => {
   show_supporting_text_ready(e);
 });
 
+// create spg
+
+function add_spg(){
+  // add new form
+  var form = document.getElementsByTagName("form");
+  var length = form.length;
+  var last_form = form[length-1];
+  var new_form = document.cloneNode(last_form);
+  last_form.append(new_form);
+}
+
 // create registrations
 
 function set_secured_party(){
