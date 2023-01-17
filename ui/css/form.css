@@ -4,7 +4,7 @@ input[type="text"], input[type="password"], input[type="checkbox"], select {
    }
 
 label, .form-elements p {
-  font-weight: bold;
+  font-weight: 500 !important;
 }
 
 label {
