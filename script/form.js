@@ -220,8 +220,6 @@ function toggle_accordion(e){
 
   form = form_list[i];
 
-  debugger;
-
   if (accordion.innerHTML == "-"){
    accordion.innerHTML = "+";
    form.style.display = "none";
@@ -236,6 +234,7 @@ function add_spg(){
   var form = document.getElementsByTagName("form");
   var length = form.length;
   var last_form = form[length-1];
+  var counter = length - 1;
   var new_form = last_form.cloneNode(true);
   // add accordion
 
@@ -244,6 +243,8 @@ function add_spg(){
   var last_heading = accordion_heading[length-1];
 
   var new_heading = last_heading.cloneNode(true);
+
+  new_heading.innerHTML = "Secured Party " + counter.toString;
 
   var add_spg_button = document.getElementById("add-spg");
 
