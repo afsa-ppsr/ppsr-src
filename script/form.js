@@ -234,7 +234,6 @@ function add_spg(){
   var form = document.getElementsByTagName("form");
   var length = form.length;
   var last_form = form[length-1];
-  var counter = length - 1;
   var new_form = last_form.cloneNode(true);
   // add accordion
 
@@ -244,9 +243,9 @@ function add_spg(){
 
   var new_heading = last_heading.cloneNode(true);
 
-  debugger;
+  new_heading.getElementsByTagName("h2")[0].innerHTML = "Secured Party " + length.toString;
 
-  new_heading.innerText = "Secured Party " + counter.toString;
+  debugger;
 
   var add_spg_button = document.getElementById("add-spg");
 
