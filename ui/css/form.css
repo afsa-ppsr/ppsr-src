@@ -3,7 +3,7 @@ input[type="text"], input[type="password"], input[type="checkbox"], select {
     margin-bottom: 1em;
    }
 
-label, .form-elements p:first-of-type {
+label, .label {
   font-weight: 500 !important;
 }
 
