@@ -221,6 +221,8 @@ function toggle_accordion(e){
 
   form = form_list[i];
 
+  debugger;
+
   if (accordion.innerHTML == "-"){
    accordion.innerHTML = "+";
    form.style.display = "none";
