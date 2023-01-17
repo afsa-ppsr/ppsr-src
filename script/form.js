@@ -227,9 +227,9 @@ function add_spg(){
 
   var new_heading = last_heading.cloneNode(true);
 
-  last_form.append(new_heading);
+  last_form.parentElement.append(new_heading);
 
-  new_heading.append(new_form);
+  //new_heading.append(new_form);
 }
 
 // create registrations
