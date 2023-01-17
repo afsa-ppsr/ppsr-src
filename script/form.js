@@ -210,13 +210,12 @@ function toggle_accordion(e){
 
   var accordion = e;
 
-  var counter = 0;
+  var counter;
   for (var i = 0; i < accordion_list.length; i++){
-    if (accordion_list[i] != accordion){
-      
-    } else {
+    if (accordion_list[i] == accordion){
       counter = i;
-    }
+      break;
+    } 
   }
 
   form = form_list[i];
