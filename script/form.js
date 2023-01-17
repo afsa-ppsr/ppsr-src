@@ -245,8 +245,6 @@ function add_spg(){
   length+=1;
   new_heading.getElementsByTagName("h2")[0].innerHTML = "Secured Party " + length.toString();
 
-  debugger;
-
   var add_spg_button = document.getElementById("add-spg");
 
   add_spg_button.insertAdjacentElement('beforeBegin',new_heading)
