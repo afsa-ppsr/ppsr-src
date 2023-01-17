@@ -292,4 +292,25 @@ label {
   .motor-vehicle {
     display: none;
   }
+
+  #collateral-class-read-only {
+    display: none;
+  }
+
+  #registration-duration {
+    display: none;
+  }
+
+  #additional-details-section {
+    display: none;
+  }
+
+  #goni-section {
+    display: none;
+  }
+
+  #earlier-registration-section {
+    display:none;
+  }
+
   
