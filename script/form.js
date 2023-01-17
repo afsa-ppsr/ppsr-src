@@ -246,7 +246,7 @@ function add_spg(){
 
   debugger;
 
-  new_heading.innerHTML = "Secured Party " + counter.toString;
+  new_heading.innerText = "Secured Party " + counter.toString;
 
   var add_spg_button = document.getElementById("add-spg");
 
