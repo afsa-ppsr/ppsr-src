@@ -219,6 +219,7 @@ function add_spg(){
   var length = form.length;
   var last_form = form[length-1];
   var new_form = document.cloneNode(last_form);
+  debugger;
   last_form.append(new_form);
 }
 
