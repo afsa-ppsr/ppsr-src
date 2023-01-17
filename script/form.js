@@ -255,6 +255,7 @@ function change_collateral_class(){
   let inputs = document.querySelectorAll("[name='collateral-class']");
   for (var i = 0; i < inputs.length; i++){
     inputs[i].disabled = false;
+    inputs[i].checked = false;
   }
   var div = document.getElementById("collateral-class-read-only");
   div.style.display = "none";
