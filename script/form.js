@@ -1,21 +1,4 @@
-function toggle_accordion(){
 
-  var form_list = document.getElementsByTagName("form");
-
-  var form = form_list[0];
-
-  var accordion_list = document.getElementsByClassName("accordion");
-
-  var accordion = accordion_list[0];
-
-  if (accordion.innerHTML == "-"){
-   accordion.innerHTML = "+";
-   form.style.display = "none";
-  } else {
-    accordion.innerHTML = "-";
-    form.style.display = "block";
-  }
-};
 
 function toggle_accordion_description(e){
 
@@ -212,6 +195,40 @@ document.addEventListener('readystatechange', e => {
 });
 
 // create spg
+
+function toggle_accordion(e){
+
+  // get all forms
+  var form_list = document.getElementsByTagName("form");
+
+  // which form
+  var form = form_list[0];
+
+
+  // get all accordions
+  var accordion_list = document.getElementsByClassName("accordion");
+
+  var accordion = e;
+
+  var counter = 0;
+  for (var i = 0; i < accordion_list.length; i++){
+    if (accordion_list[i] != accordion){
+      
+    } else {
+      counter = i;
+    }
+  }
+
+  form = form_list[i];
+
+  if (accordion.innerHTML == "-"){
+   accordion.innerHTML = "+";
+   form.style.display = "none";
+  } else {
+    accordion.innerHTML = "-";
+    form.style.display = "block";
+  }
+};
 
 function add_spg(){
   // add new form
