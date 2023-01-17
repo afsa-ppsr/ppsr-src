@@ -118,6 +118,7 @@ a{
 a:hover{
 	color:#009aa8;
   text-decoration:underline;
+  cursor: pointer;
 }
 
 #mainContainer a{
