@@ -230,12 +230,11 @@ function toggle_accordion(e){
 };
 
 function add_spg(){
-  // add new form
+
   var form = document.getElementsByTagName("form");
   var length = form.length;
   var last_form = form[length-1];
   var new_form = last_form.cloneNode(true);
-  // add accordion
 
   var accordion_heading = document.getElementsByClassName("accordion-heading");
   var length_a = accordion_heading.length;
@@ -276,9 +275,14 @@ function set_collateral_class(e){
         for (var i = 0; i < inputs.length; i++){
           inputs[i].disabled = true;
         }
-        //show div id
+        //show div ids
         var div = document.getElementById("collateral-class-read-only");
         div.style.display = "block";
+
+        var div2 = document.getElementById("motor-vehicle-2");
+
+        div2.style.display = "block";
+        
         //set collateral class
         var cc = document.getElementById("cc");
         var value = e.target.value;
@@ -293,11 +297,13 @@ document.addEventListener('readystatechange', e => {
 });
 
 function change_collateral_class(){
+  // enable all options
   let inputs = document.querySelectorAll("[name='collateral-class']");
   for (var i = 0; i < inputs.length; i++){
     inputs[i].disabled = false;
     inputs[i].checked = false;
   }
+  // hide div
   var div = document.getElementById("collateral-class-read-only");
   div.style.display = "none";
 }
