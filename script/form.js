@@ -218,9 +218,18 @@ function add_spg(){
   var form = document.getElementsByTagName("form");
   var length = form.length;
   var last_form = form[length-1];
-  var new_form = document.cloneNode(last_form);
-  debugger;
-  last_form.append(new_form);
+  var new_form = last_form.cloneNode(true);
+  // add accordion
+
+  var accordion_heading = document.getElementsByClassName("accordion-heading");
+  var length_a = accordion_heading.length;
+  var last_heading = accordion_heading[length-1];
+
+  var new_heading = last_heading.cloneNode(true);
+
+  last_form.append(new_heading);
+
+  new_heading.append(new_form);
 }
 
 // create registrations
