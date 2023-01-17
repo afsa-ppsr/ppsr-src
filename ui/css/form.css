@@ -153,6 +153,14 @@ label {
     border: 1px solid var(--afsa-purple-primary);
     margin-bottom: 0.5rem;
   }
+
+  .verify {
+    background-color: var(--afsa-purple-primary);
+    color: var(--afsa-white-tertiary);
+    border: 1px solid var(--afsa-purple-primary);
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+  }
   
   .accordion-heading {
    display: block;
