@@ -106,7 +106,7 @@ p,ul,ol{
 	line-height: 1.25rem;
 }
 
-p.large, h4,h5,h6{
+p.large, h4,h5,h6 {
   font-size:1.125rem;
 }
 
