@@ -242,8 +242,8 @@ function add_spg(){
   var last_heading = accordion_heading[length-1];
 
   var new_heading = last_heading.cloneNode(true);
-
-  new_heading.getElementsByTagName("h2")[0].innerHTML = "Secured Party " + length.toString;
+  length+=1;
+  new_heading.getElementsByTagName("h2")[0].innerHTML = "Secured Party " + length.toString();
 
   debugger;
 
