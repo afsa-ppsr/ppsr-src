@@ -230,6 +230,8 @@ function add_spg(){
   var add_spg_button = document.getElementById("add-spg");
 
   add_spg_button.insertAdjacentElement('beforeBegin',new_heading)
+
+  new_heading.insertAdjacentElement('afterEnd', new_form);
 }
 
 // create registrations
