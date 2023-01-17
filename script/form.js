@@ -235,6 +235,9 @@ function set_collateral_class(e){
         for (var i = 0; i < inputs.length; i++){
           inputs[i].disabled = true;
         }
+        //show div id
+        var div = document.getElementById("collateral-class-read-only");
+        div.style.display = "block";
         //set collateral class
         var cc = document.getElementById("cc");
         var value = e.target.value;
@@ -253,6 +256,8 @@ function change_collateral_class(){
   for (var i = 0; i < inputs.length; i++){
     inputs[i].disabled = false;
   }
+  var div = document.getElementById("collateral-class-read-only");
+  div.style.display = "none";
 }
 
 
