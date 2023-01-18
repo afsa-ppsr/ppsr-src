@@ -36,25 +36,6 @@ function select_secured_party(){
   }
 };
 
-function specific_motor_vehicle(){
-  var yes = document.getElementById("yes-specific-mv");
-  var no = document.getElementById("no-specific-mv");
-
-  var vins = document.getElementById("motor-vehicle-2");
-
-  var desc = document.getElementById("motor-vehicle-3");
-
-  if (yes.checked == true){
-    //display div
-    vins.style.display = "block";
-    desc.style.display = "none";
-  }
-  if (no.checked == true){
-    //display div
-    vins.style.display = "none";
-    desc.style.display = "block";
-  }
-};
 
 function select_arfn(){
   var yes_arfn = document.getElementById("yes-arfn");
@@ -333,6 +314,46 @@ function change_collateral_class(){
   for (var i = 0; i < divs.length; i++){
     divs[i].style.display = "none";
   }
+}
+
+function specific_motor_vehicle(){
+  var yes = document.getElementById("yes-specific-mv");
+  var no = document.getElementById("no-specific-mv");
+
+  var vins = document.getElementById("motor-vehicle-2");
+
+  var desc = document.getElementById("motor-vehicle-3");
+
+  if (yes.checked == true){
+    //display div
+    vins.style.display = "block";
+    desc.style.display = "none";
+  }
+  if (no.checked == true){
+    //display div
+    vins.style.display = "none";
+    desc.style.display = "block";
+  }
+};
+
+function collateral_show_fieldsets(){
+  var vin = document.getElementById("vin");
+  var chassis = document.getElementById("chassis");
+  var man = document.getElementById("man");
+
+  var div_1 = document.getElementById("motor-vehicle-4");
+  var div_2 = document.getElementById("motor-vehicle-5");
+
+  if (vin.checked == true || chassis.checked == true){    
+    div_1.style.display = "block"
+    div_2.style.display = "none";
+  }
+
+  if (man.checked == true){
+    div_1.style.display = "none"
+    div_2.style.display = "block";
+  }
+
 }
 
 
