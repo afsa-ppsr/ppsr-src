@@ -324,6 +324,10 @@ function specific_motor_vehicle(){
 
   var desc = document.getElementById("motor-vehicle-3");
 
+  var motor_4 = document.getElementById("motor-vehicle-4");
+
+  var motor_5 = document.getElementById("motor-vehicle-5");
+
   if (yes.checked == true){
     //display div
     vins.style.display = "block";
@@ -333,6 +337,8 @@ function specific_motor_vehicle(){
     //display div
     vins.style.display = "none";
     desc.style.display = "block";
+    motor_4.style.display = "none";
+    motor_5.style.display = "none";
   }
 };
 
