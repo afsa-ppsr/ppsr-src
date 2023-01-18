@@ -306,6 +306,13 @@ function change_collateral_class(){
   // hide div
   var div = document.getElementById("collateral-class-read-only");
   div.style.display = "none";
+
+  // hide all fieldsets
+
+  var divs = document.getElementsByClassName("motor-vehicle");
+  for (var i = 0; i < divs.length; i++){
+    divs[i].style.display = "none";
+  }
 }
 
 
