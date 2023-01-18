@@ -327,7 +327,7 @@ function show_fieldsets(){
   goni.style.display = "block";
 
   var earlier_reg = document.getElementById("earlier-registration-section");
-  earlier_reg.style.dispaly = "block";
+  earlier_reg.style.display = "block";
 }
 
 function hide_fieldsets(){
@@ -341,7 +341,7 @@ function hide_fieldsets(){
   goni.style.display = "none";
 
   var earlier_reg = document.getElementById("earlier-registration-section");
-  earlier_reg.style.dispaly = "none";
+  earlier_reg.style.display = "none";
 }
 
 function specific_motor_vehicle(){
