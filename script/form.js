@@ -279,10 +279,10 @@ function set_collateral_class(e){
         var div = document.getElementById("collateral-class-read-only");
         div.style.display = "block";
 
-        var div2 = document.getElementById("motor-vehicle-2");
+        var div2 = document.getElementById("motor-vehicle-1");
 
         div2.style.display = "block";
-        
+
         //set collateral class
         var cc = document.getElementById("cc");
         var value = e.target.value;
