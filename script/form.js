@@ -287,11 +287,13 @@ function set_collateral_class(e){
 
         //show motor vehicle div only if motor vehicle is selected
         if (e.target.value == "Motor vehicle"){
+          hide_fieldsets();
           var div2 = document.getElementById("motor-vehicle-1");
 
           div2.style.display = "block";
         }
         if (e.target.value == "Watercraft"){
+          show_fieldsets();
           var divs = document.getElementsByClassName("watercraft");
           for (var i = 0; i < divs.length; i++){
             divs[i].style.display = "block";
