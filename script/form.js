@@ -316,6 +316,34 @@ function change_collateral_class(){
   }
 }
 
+function show_fieldsets(){
+  var registration_duration = document.getElementById("registration-duration");
+  registration_duration.style.display = "block";
+
+  var add_details = document.getElementById("additional-details-section");
+  add_details.style.display = "block";
+
+  var goni = document.getElementById("goni-section");
+  goni.style.display = "block";
+
+  var earlier_reg = document.getElementById("earlier-registration-section");
+  earlier_reg.style.dispaly = "block";
+}
+
+function hide_fieldsets(){
+  var registration_duration = document.getElementById("registration-duration");
+  registration_duration.style.display = "none";
+
+  var add_details = document.getElementById("additional-details-section");
+  add_details.style.display = "none";
+
+  var goni = document.getElementById("goni-section");
+  goni.style.display = "none";
+
+  var earlier_reg = document.getElementById("earlier-registration-section");
+  earlier_reg.style.dispaly = "none";
+}
+
 function specific_motor_vehicle(){
   var yes = document.getElementById("yes-specific-mv");
   var no = document.getElementById("no-specific-mv");
@@ -337,13 +365,15 @@ function specific_motor_vehicle(){
     for (var i = 0; i < inputs.length; i++){
       inputs[i].checked = false;
     }
+    hide_fieldsets();
   }
   if (no.checked == true){
     //display div
     vins.style.display = "none";
     desc.style.display = "block";
     motor_4.style.display = "none";
-    motor_5.style.display = "none";    
+    motor_5.style.display = "none";
+    show_fieldsets();
   }
 };
 
