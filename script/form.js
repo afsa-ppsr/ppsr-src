@@ -395,6 +395,8 @@ function collateral_show_fieldsets(){
     div_2.style.display = "block";
   }
 
+  show_fieldsets();
+
 }
 
 
