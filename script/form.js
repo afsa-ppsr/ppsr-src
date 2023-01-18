@@ -291,6 +291,12 @@ function set_collateral_class(e){
 
           div2.style.display = "block";
         }
+        if (e.target.value == "Watercraft"){
+          var divs = document.getElementsByClassName("watercraft");
+          for (var i = 0; i < divs.length; i++){
+            divs[i].style.display = "block";
+          }
+        }
       })
     })
   }
