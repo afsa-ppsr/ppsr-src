@@ -36,6 +36,26 @@ function select_secured_party(){
   }
 };
 
+function specific_motor_vehicle(){
+  var yes = document.getElementById("yes-specific-mv");
+  var no = document.getElementById("no-specific-mv");
+
+  var vins = document.getElementById("motor-vehicle-2");
+
+  var desc = document.getElementById("motor-vehicle-3");
+
+  if (yes.checked == true){
+    //display div
+    vins.style.display = "block";
+    desc.style.display = "none";
+  }
+  if (no.checked == true){
+    //display div
+    vins.style.display = "none";
+    desc.style.display = "block";
+  }
+};
+
 function select_arfn(){
   var yes_arfn = document.getElementById("yes-arfn");
   var no_arfn = document.getElementById("no-arfn");
