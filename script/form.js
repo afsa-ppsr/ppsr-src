@@ -328,17 +328,22 @@ function specific_motor_vehicle(){
 
   var motor_5 = document.getElementById("motor-vehicle-5");
 
+  let inputs = document.querySelectorAll("[name='vins']");
+
   if (yes.checked == true){
     //display div
     vins.style.display = "block";
     desc.style.display = "none";
+    for (var i = 0; i < inputs.length; i++){
+      inputs[i].checked = false;
+    }
   }
   if (no.checked == true){
     //display div
     vins.style.display = "none";
     desc.style.display = "block";
     motor_4.style.display = "none";
-    motor_5.style.display = "none";
+    motor_5.style.display = "none";    
   }
 };
 
