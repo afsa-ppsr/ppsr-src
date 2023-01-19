@@ -330,6 +330,8 @@ function change_collateral_class(){
   for (var i = 0; i < divs2.length; i++){
     divs2[i].style.display = "none";
   }
+  
+  hide_fieldsets();
 }
 
 function show_fieldsets(){
