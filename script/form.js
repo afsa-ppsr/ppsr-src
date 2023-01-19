@@ -325,6 +325,11 @@ function change_collateral_class(){
   for (var i = 0; i < divs.length; i++){
     divs[i].style.display = "none";
   }
+  
+  var divs2 = document.getElementsByClassName("watercraft");
+  for (var i = 0; i < divs2.length; i++){
+    divs2[i].style.display = "none";
+  }
 }
 
 function show_fieldsets(){
