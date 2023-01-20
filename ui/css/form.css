@@ -71,7 +71,8 @@ label {
   }
 
   .form-text {
-    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
   }
 
   .additional-details-description {
