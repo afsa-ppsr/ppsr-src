@@ -260,6 +260,7 @@ label {
   
   .confirmation-body {
     width: 70%;
+    margin-top: 1rem;
   }
 
   .supporting-text-right {
