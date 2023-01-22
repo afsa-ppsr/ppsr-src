@@ -262,6 +262,9 @@ label {
     width: 70%;
     margin-top: 1rem;
   }
+  .link-right {
+    float: right;
+  }
 
   .supporting-text-right {
     display: none;
