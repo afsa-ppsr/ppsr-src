@@ -67,7 +67,7 @@ function toggle_b2g(e){
 
   if (e.innerHTML == "+"){
     e.innerHTML = "-";
-    b2g_settings.style.display = "flex";
+    b2g_settings.style.display = "block";
   } else {
     e.innerHTML = "+";
     b2g_settings.style.display = "none";
@@ -79,7 +79,7 @@ function toggle_goni(e){
 
   if (e.innerHTML == "+"){
     e.innerHTML = "-";
-    goni_settings.style.display = "flex";
+    goni_settings.style.display = "block";
   } else {
     e.innerHTML = "+";
     goni_settings.style.display = "none";
