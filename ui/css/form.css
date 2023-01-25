@@ -176,6 +176,7 @@ label {
   
   .accordion-heading h2, .accordion-heading h3 {
    display: inline-block;	
+   margin: 0;
   }
   
   .accordion {
