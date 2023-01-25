@@ -285,6 +285,10 @@ label {
     margin-top: 1rem;
   }
 
+  .acc-optional {
+    margin-left: 1em;
+  }
+
   .optional-settings p:first-of-type {
     margin-top: 1rem;
   }
