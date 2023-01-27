@@ -436,7 +436,9 @@ $( function() {
     buttonImageOnly: true,
     buttonText: "Select date",
     changeMonth: true,
-    changeYear: true
+    changeYear: true,
+    minDate: 0,
+    maxDate: "+12M"
   });
 } );
 
