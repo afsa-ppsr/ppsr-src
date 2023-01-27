@@ -65,7 +65,7 @@ label {
   }
 
   .form-element-left {
-    width: 70%;
+    width: 80%;
   }
 
   .form-element-left-full-width {
@@ -342,6 +342,10 @@ label {
 
   .watercraft, .aircraft {
     display: none;
+  }
+
+  .date {
+    width: 1rem;
   }
 
   
