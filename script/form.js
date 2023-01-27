@@ -434,7 +434,9 @@ $( function() {
     showOn: "button",
     buttonImage: "../ppsr-src/ui/icons/calendar.png",
     buttonImageOnly: true,
-    buttonText: "Select date"
+    buttonText: "Select date",
+    changeMonth: true,
+    changeYear: true
   });
 } );
 
