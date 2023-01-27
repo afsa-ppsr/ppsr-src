@@ -438,7 +438,7 @@ $( function() {
     changeMonth: true,
     changeYear: true,
     minDate: 0,
-    maxDate: "+12M"
+    maxDate: "+7Y"
   });
 } );
 
