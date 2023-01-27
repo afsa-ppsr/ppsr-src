@@ -16,6 +16,10 @@ label {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+.label {
+  margin-left: 1rem;
+}
    
 .mandatory {
     background-image: url("../images/mandatory.png");
