@@ -432,7 +432,7 @@ function collateral_show_fieldsets(){
 $( function() {
   $( "#datepicker" ).datepicker({
     showOn: "button",
-    buttonImage: "../ppsr-src/icons/lightbulb.svg",
+    buttonImage: "../ppsr-src/ui/icons/lightbulb.svg",
     buttonImageOnly: true,
     buttonText: "Select date"
   });
