@@ -429,4 +429,13 @@ function collateral_show_fieldsets(){
 
 }
 
+$( function() {
+  $( "#datepicker" ).datepicker({
+    showOn: "button",
+    buttonImage: "images/calendar.gif",
+    buttonImageOnly: true,
+    buttonText: "Select date"
+  });
+} );
+
 
