@@ -299,6 +299,13 @@ function set_collateral_class(e){
             divs[i].style.display = "block";
           }
         }
+
+        if (e.target.value == "Aircraft"){
+          var divs = document.getElementsByClassName("aircraft");
+          for (var i = 0; i < divs.length; i++){
+            divs[i].style.display = "block";
+          }
+        }
       })
     })
   }
@@ -329,6 +336,11 @@ function change_collateral_class(){
   var divs2 = document.getElementsByClassName("watercraft");
   for (var i = 0; i < divs2.length; i++){
     divs2[i].style.display = "none";
+  }
+
+  var divs3 = document.getElementsByClassName("aircraft");
+  for (var i = 0; i <divs3.length; i++){
+    divs3[i].style.display = "none";
   }
   
   hide_fieldsets();

@@ -340,7 +340,7 @@ label {
     display:none;
   }
 
-  .watercraft {
+  .watercraft, .aircraft {
     display: none;
   }
 
