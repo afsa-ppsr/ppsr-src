@@ -348,4 +348,9 @@ label {
     width: 1rem;
   }
 
+  .ui-datepicker-trigger {
+    width: 1.5rem;
+    margin-left: 0.4rem;
+  }
+
   
