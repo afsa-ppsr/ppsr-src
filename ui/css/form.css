@@ -345,7 +345,7 @@ label {
     display:none;
   }
 
-  .watercraft, .aircraft {
+  .watercraft, .aircraft, #agriculture {
     display: none;
   }
 
