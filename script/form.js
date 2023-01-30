@@ -303,6 +303,7 @@ function set_collateral_class(e){
         if (e.target.value == "Aircraft"){
           var div = document.getElementById("aircraft-1");
           div.style.display = "block";
+          show_fieldsets();
         }
       })
     })
