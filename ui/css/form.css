@@ -345,7 +345,7 @@ label {
     display:none;
   }
 
-  .watercraft, .aircraft, #agriculture {
+  .watercraft, .aircraft, #agriculture-fieldset {
     display: none;
   }
 
