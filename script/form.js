@@ -305,6 +305,14 @@ function set_collateral_class(e){
           div.style.display = "block";
           show_fieldsets();
         }
+        
+        if (e.target.value == "Agriculture"){
+          var div = document.getElementById("agriculture");
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
       })
     })
   }
