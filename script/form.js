@@ -301,10 +301,8 @@ function set_collateral_class(e){
         }
 
         if (e.target.value == "Aircraft"){
-          var divs = document.getElementsByClassName("aircraft");
-          for (var i = 0; i < divs.length; i++){
-            divs[i].style.display = "block";
-          }
+          var div = document.getElementById("aircraft-1");
+          div.style.display = "block";
         }
       })
     })
@@ -441,5 +439,26 @@ $( function() {
     maxDate: "+7Y"
   });
 } );
+
+function show_aircraft_details(){
+  var select = document.getElementById("aircraft-category");
+  var div;
+  if (select.value == "Aircraft engine"){
+    div = document.getElementById("aircraft-2");
+    div.style.display = "block";
+  }
+  if (select.value == "Airframe"){
+    div = document.getElementById("aircraft-3");
+    div.style.display = "block";
+  }
+  if (select.value == "Helicopter"){
+    div = document.getElementById("aircraft-4");
+    div.style.display = "block";
+  }
+  if (select.value == "Small aircraft"){
+      div = document.getElementById("aircraft-5");
+    div.style.display = "block";
+  }
+}
 
 
