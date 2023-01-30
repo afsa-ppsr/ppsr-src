@@ -442,22 +442,33 @@ $( function() {
 
 function show_aircraft_details(){
   var select = document.getElementById("aircraft-category");
-  var div;
+  var aircraft_2 = document.getElementById("aircraft-2");
+  var aircraft_3 = document.getElementById("aircraft-3");
+  var aircraft_4 = document.getElementById("aircraft-4");
+  var aircraft_5 = document.getElementById("aircraft-5");
   if (select.value == "Aircraft engine"){
-    div = document.getElementById("aircraft-2");
-    div.style.display = "block";
+    aircraft_2.style.display = "block";
+    aircraft_3.style.display = "none";
+    aircraft_4.style.display = "none";
+    aircraft_5.style.display = "none";
   }
   if (select.value == "Airframe"){
-    div = document.getElementById("aircraft-3");
-    div.style.display = "block";
+    aircraft_2.style.display = "none";
+    aircraft_3.style.display = "block";
+    aircraft_4.style.display = "none";
+    aircraft_5.style.display = "none";
   }
   if (select.value == "Helicopter"){
-    div = document.getElementById("aircraft-4");
-    div.style.display = "block";
+    aircraft_2.style.display = "none";
+    aircraft_3.style.display = "none";
+    aircraft_4.style.display = "block";
+    aircraft_5.style.display = "none";
   }
   if (select.value == "Small aircraft"){
-      div = document.getElementById("aircraft-5");
-    div.style.display = "block";
+    aircraft_2.style.display = "none";
+    aircraft_3.style.display = "none";
+    aircraft_4.style.display = "none";
+    aircraft_5.style.display = "block";
   }
 }
 
