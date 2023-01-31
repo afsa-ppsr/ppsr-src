@@ -331,6 +331,41 @@ function set_collateral_class(e){
           description.style.display = "block";
           show_fieldsets();
         }
+
+        if (e.target.value == "Intangible property - Account"){
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
+
+        if (e.target.value == "Intangible property - General intangible"){
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
+
+        if (e.target.value == "Intangible property - Intellectual property"){
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
+
+        if (e.target.value == "Intangible property - Intellectual property - Circuit layout"){
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
+
+        if (e.target.value == "Intangible property - Intellectual property - Copyright"){
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
       })
     })
   }
