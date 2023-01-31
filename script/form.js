@@ -313,6 +313,13 @@ function set_collateral_class(e){
           description.style.display = "block";
           show_fieldsets();
         }
+        
+        if (e.target.value == "Other goods"){
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
       })
     })
   }
