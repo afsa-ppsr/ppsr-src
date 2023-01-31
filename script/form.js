@@ -320,6 +320,17 @@ function set_collateral_class(e){
           description.style.display = "block";
           show_fieldsets();
         }
+        
+        if (e.target.value == "All present and after-acquired property - No exceptions"){
+           show_fieldsets();
+        }
+        
+        if (e.target.value == "All present and after-acquired property - With exceptions"){
+          var description = document.getElementById("motor-vehicle-3");
+          div.style.display = "block";
+          description.style.display = "block";
+          show_fieldsets();
+        }
       })
     })
   }
