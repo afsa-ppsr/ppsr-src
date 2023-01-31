@@ -361,4 +361,8 @@ label {
   .h3-indent {
     text-indent: 1rem;
   }
+
+ .ip-specific {
+     margin-left: 1rem;
+}
   
