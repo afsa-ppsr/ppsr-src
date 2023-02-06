@@ -366,6 +366,12 @@ function set_collateral_class(e){
           description.style.display = "block";
           show_fieldsets();
         }
+        
+        if (e.target.value == "Intangible property - Intellectual property - Design){
+            var div = document.getElementById("ip-design-1");
+            div.style.display = "block";
+            show_fieldsets();
+        }
       })
     })
   }
@@ -536,5 +542,7 @@ function show_aircraft_details(){
     aircraft_5.style.display = "block";
   }
 }
+
+
 
 
