@@ -372,6 +372,24 @@ function set_collateral_class(e){
             div.style.display = "block";
             show_fieldsets();
         }
+        
+         if (e.target.value == "Intangible property - Intellectual property - Patent"){
+            var div = document.getElementById("ip-design-2");
+            div.style.display = "block";
+            show_fieldsets();
+        }
+        
+        if (e.target.value == "Intangible property - Intellectual property - Plant breeder's right"){
+            var div = document.getElementById("ip-design-3");
+            div.style.display = "block";
+            show_fieldsets();
+        }
+        
+        if (e.target.value == "Intangible property - Intellectual property - Trade mark"){
+            var div = document.getElementById("ip-design-4");
+            div.style.display = "block";
+            show_fieldsets();
+        }
       })
     })
   }
