@@ -345,7 +345,7 @@ label {
     display:none;
   }
 
-  .watercraft, .aircraft, #agriculture-fieldset {
+  .watercraft, .aircraft, #agriculture-fieldset, .ip-design {
     display: none;
   }
 
