@@ -24,6 +24,7 @@ label {
 
 .label strong {
   color: var(--afsa-black-tertiary);
+  font-weight: 500 !important;
 }
    
 .mandatory {
