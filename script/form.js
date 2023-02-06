@@ -367,7 +367,7 @@ function set_collateral_class(e){
           show_fieldsets();
         }
         
-        if (e.target.value == "Intangible property - Intellectual property - Design){
+        if (e.target.value == "Intangible property - Intellectual property - Design"){
             var div = document.getElementById("ip-design-1");
             div.style.display = "block";
             show_fieldsets();
