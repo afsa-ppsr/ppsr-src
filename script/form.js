@@ -430,6 +430,9 @@ function change_collateral_class(){
   var div4 = document.getElementById("agriculture-fieldset");
   div4.style.display = "none";
   
+  var div5 = document.getElementsByClassName("ip-design");
+  div5.style.display = "none";
+  
   hide_fieldsets();
 }
 
