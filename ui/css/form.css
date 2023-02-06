@@ -19,7 +19,11 @@ label {
 
 .label {
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.label strong {
+  color: var(--afsa-black-tertiary);
 }
    
 .mandatory {
