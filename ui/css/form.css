@@ -22,6 +22,10 @@ label {
   color: var(--afsa-black-tertiary);
   font-weight: 500 !important;
 }
+
+div-with-label {
+  margin-left: 1rem;
+}
    
 .mandatory {
     background-image: url("../images/mandatory.png");
