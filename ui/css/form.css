@@ -1,6 +1,6 @@
 input[type="text"], input[type="password"], input[type="checkbox"], select {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5rem;
    }
 
 .callout-info {
